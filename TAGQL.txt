@@ -1,0 +1,49 @@
+TAGQL (Text as Graph Query Language)
+
+Query Language to query texts that have been stored as graphs (in the Alexandria database?)
+
+TAGQL is used to query markup and text. It returns text, numbers, and kwics. 
+
+Markup is identified/addressed:
+	-- by name : markup('excerpt')
+	-- by name + id : markup('excerpt','e-1')
+	-- by name + index : markup('excerpt')[0]
+	-- with/without 'range()' : excerpt , excerpt[0], excerpt(e-1)
+
+Annotations are addressed as follows: markup_identifier:annotation_identifier
+
+markup relationships 
+
+Example text Melville MB:
+- spaces not marked up; this means that in the sentence [s}I{l] [l}then rolled over, my neck feeling as if it were in a horse-collar;{l] and suddenly felt a slight scratch.{s] the spaces are ignored in the markup. This is a conscious decision because they do not hold any particular meaning, but it is of course possible to markup the spaces as well. 
+
+Open questions:
+- What do the queries return?
+- Is markup treated separately or as part of a known hierarchy?
+- How do we indicate the limen we want to query?
+- Query multiple limen at the same time?
+
+Issues that are difficult to model in XML (and that should ideally be present in the example text):
+- Overlap
+- Discontinuity
+- Hierarchy, containment, dominance
+- Artifactual hierarchy
+- Multiple layers of annotations
+
+Queries for text, markup, annotations, or a combination of those components. 
+
+TAGQL query ideas:
+Sample text: https://github.com/HuygensING/alexandria-markup/blob/develop/data/lmnl/ozymandias.lmnl
+Human: Find all instances of enjambment, defined as incongruence of line and sentence boundaries.
+Task #1: Find the lines that participate in enjambment
+Pseudo-query: Return lines that overlap with a sentence.
+select m.text from markup('line') m, markup(’s') n where overlap in (m, n);
+
+Task #2: Find the sentences that participate in enjambment
+Pseudo-query: Return sentences that overlap with a line.
+select m.text from markup(’s’) m, markup(‘line’) n where overlap in (m, n);
+
+Task #3: Find sentences that continue over more than two lines. The sentence may contain the lines exactly, or it may contain some and overlap with others.
+select m.text from markup(’s’) m, markup(‘line’) n where count(overlap in (m, n) and containment(m, n)) > 2;
+
+KWIC: searches that validate the observation you will know a word's meaning or sense by looking at the other words around it.
