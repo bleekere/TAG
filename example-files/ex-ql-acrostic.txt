@@ -1,0 +1,46 @@
+Example 2 "An Acrostic" by Edgar Allan Poe. 
+
+Note to the text: the poem is dated about 1829 (MS Mabbott text A). It was written by Poe in the album of his cousin, Elizabeth Herring.
+
+Legend:
+stanza = lg 
+line = l 
+name = name
+:e1 = elizabeth herring
+:e2 = endymon
+:l1 = laetitia elizabeth landon
+:l2 - luna
+:x = xanthippe
+
+When LMNL ranges with the same name overlap, they need to have a unique id. In the example below there is no overlap between ranges in the first line, but the ranges are nested. Is it still necessary to have unique names in that case?
+
+[poem}
+[lg [n}1{]}
+[l [n}1{]}[name=e1} [name=e1}E{name=e1]lizabeth{name=e1] it is in vain you say{l]
+[l [n}2{]}[q=e1}"[name=e1}L{name=e1]ove not"{q=e1] — thou sayest it in so sweet a way:{l]
+[l [n}3{]}[name=e1}I{name=e1]n vain those words from thee or [name=l1}L.E.L{name=l1].{l]
+[l [n}4{]}[name=x}[name=e1}Z{name=e1]antippe{name=x]’s talents had enforced so well:{l]
+[l [n}5{]}[name=e1}A{name=e1]h! if that language from thy heart arise,{l]
+[l [n}6{]}[name=e1}B{name=e1]reath it less gently forth — and veil thine eyes.{l]
+[l [n}7{][name=e2}[name=e1}E{name=e1]ndymion{name=e2], recollect, when [name=l2}[name=e1}L{name=e1]una{name=l2] tried{l]
+[l [n}8{]}To cure his love — was cured of all beside —{l]
+[l [n}9{]}His follie — pride — and passion — for he died.{l]
+{lg]{poem]
+
+Encoding in TEI/XML results in something similar:
+
+<lg>
+<l n='1'><name xml:id="e1"><name xml:id="e1">Elizabeth</name></name> it is in vain you say</l>
+<l n="2"><quote xml:id="e1">"<name xml:id="e1">L</name>ove not"</quote> — thou sayest it in so sweet a way:</l>
+<l n="3"><name xml:id="e1">I</name>n vain those words from thee or <name xml:id="e2">L. E. L.</name></l>
+<l n="4"><name xml:id="x"><name xml:id="e1">Z</name>antippe’s</name> talents had enforced so well:</l>
+<l n="5"><name xml:id="e1">A</name>h! if that language from thy heart arise,</l>
+<l n="6"><name xml:id="e1">B</name>reathe it less gently forth — and veil thine eyes.</l>
+<l n="7"><name xml:id="e2"><name xml:id="e1">E</name>ndymion</name>, recollect, when Luna tried</l>
+<l n="8"><name xml:id="e1">T</name>o cure his love — was cured of all beside —</l>
+<l n="9"><name xml:id="e1">H</name>is folly — pride — and passion — for he died.</l>
+</lg>
+Notes:
+L.E.L. = Letitia Elizabeth Landon, English poet
+Zantippe = Xanthippe/Xantippe, wife of Socrates and famously "difficult".
+
