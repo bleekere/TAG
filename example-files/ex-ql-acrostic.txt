@@ -32,7 +32,7 @@ Encoding in TEI/XML results in something similar:
 <lg>
 <l n="1"><name="#e1"><name="#e1">Elizabeth</name></name> it is in vain you say</l>
 <l n="2"><quote="#e1">"<name="#e1">L</name>ove not"</quote> — thou sayest it in so sweet a way:</l>
-<l n="3"><name="#e1">I</name>n vain those words from thee or <name="#e2">L. E. L.</name></l>
+<l n="3"><name="#e1">I</name>n vain those words from thee or <name="#l1">L. E. L.</name></l>
 <l n="4"><name="#x"><name="#e1">Z</name>antippe’s</name> talents had enforced so well:</l>
 <l n="5"><name="#e1">A</name>h! if that language from thy heart arise,</l>
 <l n="6"><name="#e1">B</name>reathe it less gently forth — and veil thine eyes.</l>
@@ -40,6 +40,23 @@ Encoding in TEI/XML results in something similar:
 <l n="8"><name="#e1">T</name>o cure his love — was cured of all beside —</l>
 <l n="9"><name="#e1">H</name>is folly — pride — and passion — for he died.</l>
 </lg>
+
+TexMECS
+
+<lg|
+<l|1|<name~1 pers="E1"|<name~2 pers="E1"|E|-name~2>lizabeth|name~1> it is in vain you say|-l>
+<+l|2|<sp pers="E1"|<+name pers="E1"|L|-name>ove not"|sp> - thou sayest it in so sweet a way:|-l>
+<+l|3|<+name pers="E1"|I|-name>n vain those words from thee or <name pers="E2"|L.E.L|name>|-l>
+<+l|4|<name~3 pers="X"|<+name~4 pers="E1"|Z|-name~4>antippe's|name~3> talents had enforced so well:|-l>
+<+l|5|<+name pers="E1"|A|-name>h! if that language from thy heart arise,|-l>
+<+l|6|<+name pers="E1"|B|-name>reathe it less gently forth - and veil thine eyes.|l>
+<l|7|<name~5 pers+"E2"|<+name~6 pers=E1"|E|-name~6>ndymion|name~5>, recollect, when <name pers="L2"|Luna|name> tried|-l>
+<+l|8|<+name pers="E1"|T|-name>o cure his love - was cured of all beside -|-l>
+<+l|9|<+name pers="E1"|H|name>is follow - pride - and passion - for he died.|l>
+|lg>
+
+..
+-lg>
 
 Notes:
 L.E.L. = Letitia Elizabeth Landon, English poet
