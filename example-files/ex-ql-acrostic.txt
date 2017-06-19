@@ -12,7 +12,9 @@ name = name
 :l2 - luna
 :x = xanthippe
 
-When LMNL ranges with the same name overlap, they need to have a unique id. In the example below there is no overlap between ranges in the first line, but the ranges are nested. Is it still necessary to have unique names in that case?
+-----
+LMNL
+-----
 
 [poem}
 [lg [n}1{]}
@@ -27,7 +29,9 @@ When LMNL ranges with the same name overlap, they need to have a unique id. In t
 [l [n}9{]}[name [pers}e1{]H{name]is follie — pride — and passion — for he died.{l]
 {lg]{poem]
 
-Encoding in TEI/XML results in something similar:
+-------
+TEI/XML 
+-------
 
 <lg>
 <l n="1"><name="#e1"><name="#e1">Elizabeth</name></name> it is in vain you say</l>
@@ -41,25 +45,25 @@ Encoding in TEI/XML results in something similar:
 <l n="9"><name="#e1">H</name>is folly — pride — and passion — for he died.</l>
 </lg>
 
+--------
 TexMECS
+--------
+
+The suspend(-) and resume(+) notation is used for the name of the acrosticon. For that reason the pers-attribute "E1" is used only in its first two occurrences.
 
 <lg|
 <l|1|<name~1 pers="E1"|<name~2 pers="E1"|E|-name~2>lizabeth|name~1> it is in vain you say|-l>
-<+l|2|<sp pers="E1"|<+name pers="E1"|L|-name>ove not"|sp> - thou sayest it in so sweet a way:|-l>
-<+l|3|<+name pers="E1"|I|-name>n vain those words from thee or <name pers="E2"|L.E.L|name>|-l>
-<+l|4|<name~3 pers="X"|<+name~4 pers="E1"|Z|-name~4>antippe's|name~3> talents had enforced so well:|-l>
-<+l|5|<+name pers="E1"|A|-name>h! if that language from thy heart arise,|-l>
-<+l|6|<+name pers="E1"|B|-name>reathe it less gently forth - and veil thine eyes.|l>
-<l|7|<name~5 pers="E2"|<+name~6 pers=E1"|E|-name~6>ndymion|name~5>, recollect, when <name pers="L2"|Luna|name> tried|-l>
-<+l|8|<+name pers="E1"|T|-name>o cure his love - was cured of all beside -|-l>
-<+l|9|<+name pers="E1"|H|name>is follow - pride - and passion - for he died.|l>
+<+l|2|<sp pers="E1"|<+name|L|-name>ove not"|sp> - thou sayest it in so sweet a way:|-l>
+<+l|3|<+name|I|-name>n vain those words from thee or <name pers="E2"|L.E.L|name>|-l>
+<+l|4|<name~3 pers="X"|<+name~4|Z|-name~4>antippe's|name~3> talents had enforced so well:|-l>
+<+l|5|<+name|A|-name>h! if that language from thy heart arise,|-l>
+<+l|6|<+name|B|-name>reathe it less gently forth - and veil thine eyes.|l>
+<l|7|<name~5 pers="E2"|<+name~6|E|-name~6>ndymion|name~5>, recollect, when <name pers="L2"|Luna|name> tried|-l>
+<+l|8|<+name|T|-name>o cure his love - was cured of all beside -|-l>
+<+l|9|<+name|H|name>is follow - pride - and passion - for he died.|l>
 |lg>
-
-..
--lg>
 
 Notes:
 L.E.L. = Letitia Elizabeth Landon, English poet
 Zantippe = Xanthippe/Xantippe, wife of Socrates and famously "difficult".
 
-Both LNNL and XML (can) represent structured data. 
