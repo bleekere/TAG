@@ -1,0 +1,51 @@
+[excerpt [title}Krapp's Last Tape{title] [author}Samuel Beckett{author] [publisher}Royal Court Theater{ [year}1972{year] [place}London{place]publisher] 
+[MS-id}MS-HRC-SB-5-4{MS-id]
+[page}2.3{page] 
+
+[p [n}1{] [indent[q}2{]}
+[l}[stage}[s}(He raises his head, stares blankly{s][s}front{s]{stage]{l]{p]
+[space[q}1{]]
+[margin}KRAPP:{margin] 
+[p [n}2{][indent [q}1{]}
+[l}[stage}[s}(puzzled){s]{stage][speaker [pers}Krapp-now{]}[s}Black ball? ...{s]{speaker][stage}[s}(he peers again at{l]
+[l}ledger, reads){s]{stage][speaker [pers}Krapp-now{]}[s}The dark nurse ...{s]{speaker][stage}[s}(he raises his{l]
+[l}head, broods, peers again at ledger, reads){s]{stage] [speaker [pers}Krapp-now{]}[s}Slight{l]
+[l}improvement in bowel condition...{s] [s}Hm...{s] [s}Memor-{l]
+[l}able equinox.{s]{speaker] [stage}[s}(he raises his head, stares blankly{l]
+[l}front.{s] [s}Puzzled){s]{stage] [speaker [pers}Krapp-now{]}[s}Memorable equinox?...{s]{speaker]{l]{p]
+[space[q}1{]]
+[p [n}3{] [indent[q}2{]]}
+[l}[stage}[s}(Pause.{s][s}He shrugs his shoulders, peers{l]
+[l}again at ledger, reads){s]{stage]{l]{p]
+[space [q}1{]]
+[p [n}4{][indent [q}1{]}
+[l}[speaker [pers}Krapp-now{]}[s}Farewell to - [stage}[s}(he turns page){s]{stage] - love.{s]{l]{p]
+[space [q}1{]]
+[p [n}5{][indent [q}2{]}
+[l}[stage}[s}(He raises his head, broods, bends over{l]
+[l}machine, switches on and assumes{l]
+[l}listening posture, i.e. leaning forward{l]
+[l}elbows on table, hand cupping ear towards{l]
+[l}machine, face front{s]{stage]{l]{p]
+[space [q}1{]]
+[p [indent [q}2{]]}
+[l}[stage}[s}(Action interrupted by first look over left{l]
+[l}shoulder into darkness backstage) ){s]{stage]{stage]{l]{p]
+[space [q}1{]]
+[margin}TAPE:{margin] 
+[p [indent [q}1{]]}
+[l}[stage}[s}(strong voice, rather pompousm clearly KRAPP's{l]
+[l}at a much earlier time){s]{stage][[speaker [pers}Krapp-39{]}[s}Thirty-nine today, sound{l]
+[l}as a -{s]{speaker]{p]
+[space [q}1{]]
+[p [indent [q}2{]]}
+[l}[stage}[s}(Settling himself more comfortably he{l]
+[l}knocks one of the boxes off the table,{l]
+[l}curses, switches off, sweeps boxes and{l]
+[l}ledger violently to the ground, winds{l]
+[l}tape back to the beginning, switches on, re-{l]
+[l}sumes posture){s]{stage]{l]{p]
+[space [q}1{]]
+[p [indent [q}2{]]} ...
+
+   
