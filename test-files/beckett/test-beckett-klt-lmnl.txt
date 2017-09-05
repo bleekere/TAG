@@ -5,6 +5,7 @@ p = paragraph (numbered; starting anew on a new document page)
 l = line (unnumbered)
 s = sentence
 sp = speech
+cont = continued (i.e same speaker)
 q = quote
 MS-id = manuscript ID (from Harry Ransom Center, Texas)
 
@@ -16,43 +17,43 @@ Krapp-39 = Krapp on tape, just turned 39
 [MS-id}MS-HRC-SB-5-4{MS-id]
 [page [n}2.3{] [en}14.r{]} 
 [p [n}1{] [indent[quantity}2{]}
-[l}[stage [who}Krapp-now{][s}(He raises his head, stares blankly{s][s}front{s]{stage]{l]{p]
+[l}[stage=Krapp-now}[s}(He raises his head, stares blankly{s][s}front{s]{stage]{l]{p]
 [space[quantity}1{]]
 [margin}[l}[speaker}Krapp-now{}KRAPP{speaker]:{l][l}(contd){l]{margin] 
 [p [n}2{][indent [quantity}1{]}
-[l}[stage [who}Krapp-now{]}[s}(puzzled){s]{stage][q [sp}Krapp-now{][s}Black ball? ...{s]{sp][stage [who}Krapp-now{]}[s}(he peers again at{l]
-[l}ledger, reads){s]{stage][q [sp}Krapp-now{]}[s}The dark nurse ...{s]{q][stage [who}Krapp-now{]}[s}(he raises his{l]
-[l}head, broods, peers again at ledger, reads){s]{stage] [q [sp}Krapp-now{]}[s}Slight{l]
+[l}[stage=Krapp-now}[s}(puzzled){s]{stage][q [sp}Krapp-now{][s}Black ball? ...{s]{sp][stage=Krapp-now}[s}(he peers again at{l]
+[l}ledger, reads){s]{stage][q [cont}Krapp-now{]}[s}The dark nurse ...{s]{q][stage=Krapp-now}[s}(he raises his{l]
+[l}head, broods, peers again at ledger, reads){s]{stage] [q [cont}Krapp-now{]}[s}Slight{l]
 [l}improvement in bowel condition...{s] [s}Hm...{s] [s}Memor-{l]
-[l}able equinox.{s]{q] [stage [who}Krapp-now{]}[s}(he raises his head, stares blankly{l]
-[l}front.{s] [s}Puzzled){s]{stage] [q [sp}Krapp-now{]}[s}Memorable equinox?...{s]{q]{l]{p]
+[l}able equinox.{s]{q] [stage=Krapp-now}[s}(he raises his head, stares blankly{l]
+[l}front.{s] [s}Puzzled){s]{stage] [q [cont}Krapp-now{]}[s}Memorable equinox?...{s]{q]{l]{p]
 [space[quantity}1{]]
 [p [n}3{] [indent[quantity}2{]]}
-[l}[stage [who}Krapp-now{]}[s}(Pause.{s][s}He shrugs his shoulders, peers{l]
+[l}[stage=Krapp-now}[s}(Pause.{s][s}He shrugs his shoulders, peers{l]
 [l}again at ledger, reads){s]{stage]{l]{p]
 [space [quantity}1{]]
 [p [n}4{][indent [quantity}1{]}
-[l}[q [sp}Krapp-now{]}[s}Farewell to - [stage [who}Krapp-now{]}[s}(he turns page){s]{stage] - love.{s]{q]{l]{p]
+[l}[q [cont}Krapp-now{]}[s}Farewell to - [stage=Krapp-now}[s}(he turns page){s]{stage] - love.{s]{q]{l]{p]
 [space [quantity}1{]]
 [p [n}5{][indent [quantity}2{]}
-[l}[stage [who}Krapp-now{]}[s}(He raises his head, broods, bends over{l]
+[l}[stage=Krapp-now}[s}(He raises his head, broods, bends over{l]
 [l}machine, switches on and assumes{l]
 [l}listening posture, i.e. leaning forward{l]
 [l}elbows on table, hand cupping ear towards{l]
 [l}machine, face front{s]{stage]{l]{p]
 [space [quantity}1{]]
 [p [n}6{][indent [quantity}2{]]}
-[l}[stage [who}Krapp-now{]}[s}(Action interrupted by first look over left{l]
-[l}shoulder into darkness backstage) ){s]{stage]{stage]{l]{p]
+[l}[stage=Krapp-now2}[s}(Action interrupted by first look over left{l]
+[l}shoulder into darkness backstage) ){s]{stage=Krapp-now2]{stage=Krapp-now]{l]{p]
 [space [quantity}1{]]
 [margin}[l}[speaker}Krapp-39{}TAPE{speaker]:{l]{margin] 
 [p [n}7{][indent [quantity}1{]]}
-[l}[stage [who}Krapp-39{]}[s}(strong voice, rather pompousm clearly KRAPP's{l]
+[l}[stage=Krapp-39}[s}(strong voice, rather pompousm clearly KRAPP's{l]
 [l}at a much earlier time){s]{stage][q [sp}Krapp-39{]}[s}Thirty-nine today, sound{l]
 [l}as a -{s]{q]{p]
 [space [quantity}1{]]
 [p [n}8{][indent [quantity}2{]]}
-[l}[stage [who}Krapp-now{]}[s}(Settling himself more comfortably he{l]
+[l}[stage=Krapp-now}[s}(Settling himself more comfortably he{l]
 [l}knocks one of the boxes off the table,{l]
 [l}curses, switches off, sweeps boxes and{l]
 [l}ledger violently to the ground, winds{l]
@@ -60,9 +61,9 @@ Krapp-39 = Krapp on tape, just turned 39
 [l}sumes posture){s]{stage]{l]{p]
 [space [quantity}1{]]
 [p [n}9{][indent [quantity}1{]]} 
-[l}[q [sp}Krapp-39{]}[s}Thirty-nine today, sound as a bell, apart from my{l]
+[l}[q [cont}Krapp-39{]}[s}Thirty-nine today, sound as a bell, apart from my{l]
 [l}old weakness, and intellectually I have now every{l]
-[l}reason to suspect at the ...{q] [stage [who}Krapp-39{]}[s}(hesitates){s]{stage] [q [sp}Krapp-39{]}... crest{l]
+[l}reason to suspect at the ...{q] [stage=Krapp-39}[s}(hesitates){s]{stage] [q [cont}Krapp-39{]}... crest{l]
 [l}of the wave - or thereabouts. {s][s}Celebrated the awful{l]
 [l}occasion, as in recent years, quietly at the Wine-{l]
 [l}house.{s] [s}Not a soul.{s] [s}Sat before the fire with closed{l]
@@ -71,37 +72,70 @@ Krapp-39 = Krapp on tape, just turned 39
 [l}to be back in my den, in my old rags.{s] [s}Have just{l]
 [l}eaten I regret to say three bananas and only with{l]
 [l}difficulty refrained from a fourth.{s] [s}Fatal things for a{l]
-[l}man with my condition.{s]{q] [stage [who}Krapp-39{]}[s}(vehemently){s]{stage] [q [sp}Krapp-39{]}[s}Cut 'em out!{s]{q]{l]
-[l}[stage [who}Krapp-39{]}[s}(pause){s]{stage] [q [sp}Krapp-39{]}[s}The new light above my table is a great{l]{page]
+[l}man with my condition.{s]{q] [stage=Krapp-39}[s}(vehemently){s]{stage] [q [cont}Krapp-39{]}[s}Cut 'em out!{s]{q]{l]
+[l}[stage=Krapp-39}[s}(pause){s]{stage] [q [cont}Krapp-39{]}[s}The new light above my table is a great{l]{page]
 
 [page [n}2.4{]}
 [margin}[speaker}Krapp-39{}[l}TAPE:{l]{speaker][l}(contd){l]]
 [l}improvement.{s] [s}With all this darkness round me I{l]
-[l}feel less alone.{s]{q] [stage [who}Krapp-39{]}[s}(pause){s]{stage] [q [sp}Krapp-39{]}[s}In a way.{s]{q] [stage [who}Krapp-39{]}[s}(pause){s]{stage] [q [sp}Krapp-39{]}[s}I{l]
+[l}feel less alone.{s]{q] [stage=Krapp-39}[s}(pause){s]{stage] [q [cont}Krapp-39{]}[s}In a way.{s]{q] [stage=Krapp-39}[s}(pause){s]{stage] [q [cont}Krapp-39{]}[s}I{l]
 [l}love to get up and move about in it, then back here{l]
-[l}to ...{q] [stage [who}Krapp-39{]}[s}(hesitates){s]{stage][q [sp}Krapp-39{]}[s}... me.{s]{a][stage [who}Krapp-39{]}[s}(pause){s]{stage][q [sp}Krapp-39{]}[s}Krapp.{s]{a]{l]{p]
+[l}to ... [stage=Krapp-39}[s}(hesitates){s]{stage]... me.{s]{a][stage=Krapp-39}[s}(pause){s]{stage][q [cont}Krapp-39{]}[s}Krapp.{s]{q]{l]{p]
 [space [quantity}1{]]
 [p [n}1{][indent [quantity}2{]]}
-[l}[stage [who}Krapp-now{]}[s}(Pause){s]{stage]{l]{p]
+[l}[stage=Krapp-now}[s}(Pause){s]{stage]{l]{p]
 [p [n}2{][indent [quantity}1{]]}
-[l}[q [sp}Krapp-39{]}[s}The grain, now what I wonder do I mean by that, I{l]
-[l}mean... [stage [who}Krapp-now{]}[s}(hesitates){s]{stage] ...I suppose I mean those{l]
+[l}[q [cont}Krapp-39{]}[s}The grain, now what I wonder do I mean by that, I{l]
+[l}mean... [stage=Krapp-now}[s}(hesitates){s]{stage] ...I suppose I mean those{l]
 [l}thing worth having when all the dust has - when all{l]
 [l}[emph=underlined}my{emph] dust has settled.{s] [s}I close my eyes and try and{l]
 [l}imagine them.{s]{q]{l]{p]
 [space [quantity}1{]]
 [p [n}3{][indent [quantity}2{]]}
-[l}[stage [who}Krapp-now{]}[s}(Pause. KRAPP closes his eyes briefly{s]{stage]{l]{p]
+[l}[stage=Krapp-now}[s}(Pause. KRAPP closes his eyes briefly{s]{stage]{l]{p]
 [space [quantity}1{]]
 [p [n}4{][indent [quantity}1{]]}
-[l}[q [sp}Krapp-39{]}[s}Extraordinary silence this evening, I strain my ears{l]
+[l}[q [cont}Krapp-39{]}[s}Extraordinary silence this evening, I strain my ears{l]
 [l}and do not hear a sound.{s] [s}Old Miss McGlome always{l]
 [l}sings at this hour.{s] [s}But not tonight.{s] [s}Songs of her girl-{l]
 [l}hood, she says.{s] [s}Hard to think of her as a girl.{s] [s}Wonder-{l]
-[l}ful woman though.{s] [s [reg=Connacht}Connaught{reg], I fancy.{s]{q] [stage [who}Krapp-39{]}[s}(pause){s]{stage] [q [sp}Krapp-39{]}[s} Shall{l]
-[l}I sing when I am her age, if I ever am?{s] [s}No.{s]{q] [stage [who}Krapp-39{]}[s}(pause){s]{stage]{l]
-[l}[q [sp}Krapp-39{]}[s}Did I sing as a boy?{s] [s}No.{s]{q] [stage [who}Krapp-39{]}[s}(pause){s]{stage] [q [sp}Krapp-39{]}[s}Did I ever sing?{s]{l]
+[l}ful woman though.{s] [s [reg=Connacht}Connaught{reg], I fancy.{s][stage=Krapp-39}[s}(pause){s]{stage] Shall{l]
+[l}I sing when I am her age, if I ever am?{s] [s}No.{s][stage=Krapp-39}[s}(pause){s]{stage]{l]
+[l}[s}Did I sing as a boy?{s] [s}No.{s] [stage=Krapp-39}[s}(pause){s]{stage] [s}Did I ever sing?{s]{l]
 [l}[s}No.{s]{q]{l]{p]
+[space [quantity}1{]]
+[p [n}5{][indent [quantity}2{]]}
+[l} [stage}[who}Krapp-now{]}[s}(Pause){s]{stage]{l]{p]
+[space [quantity}1{]]
+[p [n}6{][indent [quantity}1{]]}
+[l}[q [sp}Krapp-39{]}[s}Just been listening to an old year, passages at random.{s]{l]
+[l}[s}I did not check in the book, but it must be at least ten{l]
+[l}or twelve years ago.{s] [s}At the time I think I was still{l]
+[l}living on and off with Bianca in Kedar Street.{s] [s}Well{l]
+[l}out of that, Jesus yes!{s][s}Hopeless business.{s][stage=Krapp-39}(pause){stage]{l]
+[l}[s}Incomparable!{s][stage=Krapp-39}(pause){stage][s}Ah well...{s][stage}[who}Krapp-39{](pause){stage][s}These{l]
+[l}old P.M.s are gruesome, but I often find them -{l]{p]
+[space [quantity}1{]]
+[p [n}7{][indent [quantity}2{]]}
+[l}[stage}[who}Krapp-now{]}[s}(KRAPP switches off, broods, switches{l]
+[l}on{s]{l].
+[space [quantity}1{]]
+[p [n}8{][indent [quantity}2{]]}
+[l}- a help before embarking on a new ... [stage=Krapp-39}(hesitates){stage]{l]
+[l}...retrospect.{s][s}Hard to believe I was ever that{l]
+[l}young whelp.{s][s}The voice!{s][s}Jesus!{s][s}And the aspira-{l]
+[l}tions! [stage=Krapp-39}[s}(brief laugh in which [stage=Krapp-now}KRAPP joins{stage=Krapp-now]{s]{stage=Krapp-39][s}And{l]
+[l}the resolutions!{s][stage=Krapp-39}[s}(brief laugh in which [stage=Krapp-now}KRAPP joins{stage=Krapp-now]{s]{stage=Krapp-39]{l]
+[l}[s}To drink less, in particular.{s][stage=Krapp-now}[s}(brief laugh of KRAPP{l]
+[l}alone){s]{stage][s}Statistics.{s][s}Seventeen hundred hours, out of{l]
+[l}the preceeding eight thousand odd, consumed on{l]
+[l}licensed premises alone.{s][s}More than 20 per cent,{l]{page]
+
+
+****
+nog openstaande ranges:
+...{s]{p]{q]
+
 
  
 
