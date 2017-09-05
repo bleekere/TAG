@@ -17,3 +17,5 @@ select text from markup where name='q' and id='h'
 
 6. get the instances of nantucket dialect in the speech of mrs. hussey   
 select text from markup where name='dt' and id='n' in (select text from markup where name='q' and id='h')
+
+-----
