@@ -1,6 +1,21 @@
 # Krapp's Last Tape (MS-HRC-SB-5-4)
 ### [excerpt in LMNL encoding]
 
+## Capture in encoding
+
+- lines, sentences, speech, speaker
+- stage directions; for actor-Krapp and for tape-Krapp
+- the interactions between actor-Krapp and tape-Krapp
+- discontinuity: the actor-Krapp intervenes in the tape
+- overlap: sentences and lines, paragraphs and page breaks, etc.
+- multiple hierarchies: the structure of the tape-narrative and of the stage-narrative
+- [Ideally: the non-linear order of the tape-narrative]
+
+### less interested in
+- pages, page numbers
+- indentation
+- documentary aspects of manuscript
+
 ## Queries
 1. Find all the stage directions that are not directly in a speech (sp)
 2. Find all lines that contain both a speech and a stage direction
