@@ -3,8 +3,9 @@
 
 ## Capture in encoding
 
+- list of characters linked to list of speech
 - lines, sentences, speech, speaker
-- stage directions; for actor-Krapp and for tape-Krapp
+- stage directions; for actor-Krapp and for tape-Krapp; may occur anywhere in the text
 - the interactions between actor-Krapp and tape-Krapp
 - discontinuity: the actor-Krapp intervenes in the tape
 - overlap: sentences and lines, paragraphs and page breaks, etc.
@@ -15,6 +16,7 @@
 - pages, page numbers
 - indentation
 - documentary aspects of manuscript
+- whitespace 
 
 ## Queries
 1. Find all the stage directions that are not directly in a speech (sp)
