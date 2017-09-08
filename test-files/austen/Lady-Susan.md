@@ -70,7 +70,7 @@ Description: represents a grammatical (not necessarily an ortographic) word
 
 
 | | page | p | line | w | hyphen | letter | page number |
-|---| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|---| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | page |  [not allowed] | is contained by | is dominated by  | is contained by | is contained by | is contained by | is dominated by |
 | p | contains | [not allowed] | is contained by | is dominated by | is contained by | dominates| [not allowed]
 |line | dominates | contains | [not allowed] | is contained by | is contained by | dominates | dominates |
