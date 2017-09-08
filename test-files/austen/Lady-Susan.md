@@ -20,7 +20,7 @@
 	- distinct spelling
 	- abbreviation
 - structure of text: 
-	- two hierarchies: physical structure of document and narratological structure of text
+	- two hierarchies: physical structure of document and narratological structure of text. Which data in which hierarchy?
 	- front/body/back
 	- line- and page breaks 
 	- paragraphs
@@ -29,3 +29,24 @@
 - hand shifts (person who writes and instrument of writing), rewritings, deletions and additions
 - hyphenation in insertions, to make sure that they correspond with the linebreaks in the original/deleted part
 
+Data-centric hierarchy (physical structure of document)
+
+- page
+- rend (and "place-attribute")
+- line
+- del
+
+Text-centric hierarchy (narratological structure of text; particularities of Austen)
+
+- pagenumber
+- title
+- indent
+- sentence (s)
+- dash
+- salute
+- paragraphs (p)
+- capital
+- hyphen
+- dash
+- emph
+- word (w)
