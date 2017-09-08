@@ -69,13 +69,17 @@ Description: represents a grammatical (not necessarily an ortographic) word
 - dominates ```hyphen```
 
 
-| | page | p | line | w | hyphen | rend |
-|---| :---: | :---: | :---: | :---: | :---: | :---: | 
-| page |  [not allowed] | is contained by | is dominated by  | is contained by | is contained by | is contained by |
-| p | contains | [not allowed] | is contained by | is dominated by | is contained by | can be contained by | 
-|line | dominates | contains | [not allowed] | is contained by | is contained by | is dominated by |
-| w | contains | dominates | contains | [not allowed] | is dominated by | 
-| hyphen | contains | contains | contains | dominates | [not allowed] |
+| | page | p | line | w | hyphen | letter | page number |
+|---| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| page |  [not allowed] | is contained by | is dominated by  | is contained by | is contained by | is contained by | is dominated by |
+| p | contains | [not allowed] | is contained by | is dominated by | is contained by | dominates| [not allowed]
+|line | dominates | contains | [not allowed] | is contained by | is contained by | dominates | dominates |
+| w | contains | dominates | contains | [not allowed] | is dominated by | dominates | dominates |
+| hyphen | contains | contains | contains | dominates | [not allowed] | dominates | dominates |
+| letter | contains | is dominated by | is dominated by | is dominated by | is dominated by | [not allowed] | [not allowed] | 
+| page number | dominates | [not allowed] | is dominated by | is dominated by | is dominated by | [not allowed] | [not allowed] |
+
+**NB**. In this matrix, domination does not necessarily imply requirement. For instance, a ```page number``` dominates a ```line``` but a ```line``` does not require a ```page number``` as a parent (it could also have a ```page``` as a parent).
 
 
 
