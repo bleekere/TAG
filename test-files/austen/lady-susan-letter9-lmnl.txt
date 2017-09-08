@@ -1,7 +1,7 @@
 [page}29{}
 [pagenumber [place}right-corner{]}29{]
 [title [indent}2{]}[l}Letter 9{l] 
-[l M[rend [place}sup{}rs{rend]. Johnson to Lady Susan{l]{title]
+[l M[rend [place}sup{]}rs{rend]. Johnson to Lady Susan{l]{title]
 [l [indent}5{]}Edward S[place}sup{}tr.{place] [dash}3{}- - -{dash]{l]
 [salute}[l}My dearest [capital}Friend{capital]{l]{salute]
 [p}[l [indent}2{]}[s}I congratulate you on M[place}sup{}r{place]. De Courcy's{l]
