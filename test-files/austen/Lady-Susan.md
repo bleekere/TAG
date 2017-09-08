@@ -27,19 +27,93 @@
 	- indentation (four different indentations in _Lady Susan_: short-indent, indent, indent1, indent2)
 	- page containing two letters
 - hand shifts (person who writes and instrument of writing), rewritings, deletions and additions
-- hyphenation in insertions, to make sure that they correspond with the linebreaks in the original/deleted part
+- hyphenation in insertions, to make sure that they correspond with the linebreaks in the original/deleted part (in XML with milestones)
 
-Data-centric hierarchy (physical structure of document)
+
+### Declaration of tags (based on KLT excerpt)
+
+**page**  
+Description: editorial page numbering, which may differ from authorial page numbering
+
+- has (alpha)numeric annotation
+- can be contained by ```book``` or ```volume``` or ```quire``` , etc.
+- can contain ```pagenumber```, ```title```, ```salute```, ```p```, ```s```, ```capital```, ```dash```, ```rend```
+- dominates ```l```
+- cannot directly contain text characters
+
+**p**  
+Description: paragraph
+
+- possible attributes ```indent```
+- can contain ```del```, ```add```, ```capital```, ```w```,   
+- should contain ```l``` 
+- dominates ```l```, ```dash```
+- is dominated by ...
+- can be contained by ```page```
+- can be proceeded or followed by ```salute```
+
+**line**  
+Description: indicates a _topographic_ line in the document (so not verse, which is marked up with ```l```)
+
+- can contain ```rend```, ```w```, ```capital```, ```emph```, ```rend```, ```del```, ```add```, ```hyphen``` 
+- should contain alphanumeric characters
+- dominates ```dash```
+- is dominated by ```page```, ```salute```
+- attributes: ```indent```
+
+**w**  
+Description: represents a grammatical (not necessarily an ortographic) word
+
+- should contain ```hyphen```, alphanumeric characters 
+- cannot contain ```l```
+- dominates ```hyphen```
+
+
+| | page | p | line | w | hyphen |  
+|---| :---: | :---: | :---: | :---: | :---: |
+| page |  - | is contained by | is dominated by  | is contained by | is contained by | 
+| p | contains | - | is contained by | is dominated by | is contained by |
+|line | dominates | contains | - | is contained by | is contained by |
+| w | contains | contains | contains | - | is dominated by |
+| hyphen | contains | contains | contains | dominates | - |
+
+
+
+
+**pagenumber**  
+Description: authorial page numbering
+
+- attributes: ```rend```
+- should contain: ```l```, alphanumeric characters
+- is contained by ```page```
+
+
+**rend**  
+Description: attribute with value that refers to the physical or material structure of the document
+
+- can contain attributes ```place```
+- cannot be empty; should contain attribute with alphanumeric value
+- annotations: ```direct```
+- is dominated by ```pagenumber```, ```title```, ```del```, ```add```, ```emph```, ```s``` (basically, almost every tag)
+- can be contained by ```l```
+
+
+
+
+#### Data-centric hierarchy (physical structure of document)
 
 - page / pagenumber
 - line
-- del
+- del and its "rend"-attributes
+- handnotes / hand shifts
 
-Text-centric hierarchy (narratological structure of text; particularities of Austen)
+#### Text-centric hierarchy (narratological structure of text; particularities of Austen)
 
+- letter (perhaps something like ```<div type=letter>``` or ```[div [type}letter{]}```)
 - title
 - rend (such as  "place"-attribute)
 - indent
+- distinct spelling
 - sentence (s)
 - dash
 - salute

@@ -39,7 +39,7 @@
 
 #### "Time-centric" / "temporal"
 
-- stage and its attributes
+- stage and its attributes (here "Krapp-now" and "Krapp-39")
 
 ## Queries
 1. Find all the stage directions that are not directly in a speech (sp)
