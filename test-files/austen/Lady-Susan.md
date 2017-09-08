@@ -20,6 +20,7 @@
 	- distinct spelling
 	- abbreviation
 - structure of text: 
+	- two hierarchies: physical structure of document and narratological structure of text
 	- front/body/back
 	- line- and page breaks 
 	- paragraphs
@@ -27,4 +28,4 @@
 	- page containing two letters
 - hand shifts (person who writes and instrument of writing), rewritings, deletions and additions
 - hyphenation in insertions, to make sure that they correspond with the linebreaks in the original/deleted part
-- 
+
