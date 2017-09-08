@@ -1,16 +1,16 @@
 [page}29{}
-[pagenumber [place}right-corner{]}29{]
+[pagenumber [rend [place}right-corner{]}29{rend]pagenumber]
 [title [indent}2{]}[l}Letter 9{l] 
 [l M[rend [place}sup{]}rs{rend]. Johnson to Lady Susan{l]{title]
-[l [indent}5{]}Edward S[place}sup{}tr.{place] [dash}3{}- - -{dash]{l]
+[l [indent}5{]}Edward S[rend [place}sup{]}tr.{rend] [dash}3{}- - -{dash]{l]
 [salute}[l}My dearest [capital}Friend{capital]{l]{salute]
-[p}[l [indent}2{]}[s}I congratulate you on M[place}sup{}r{place]. De Courcy's{l]
+[p}[l [indent}2{]}[s}I congratulate you on M[rend [place}sup{]}r{rend]. De Courcy's{l]
 [l}arrival, & advise you by all means to marry him;{l]
-[l}his [capital}Father's Estate{capital] is we know considerable, [del}direct{}&{del] I [w}be[hypen}colon2{}:{l]
+[l}his [capital}Father's Estate{capital] is we know considerable, [del [rend}direct{]}&{del] I [w}be[hypen}colon2{}:{l]
 [l}:{hyphen]leive{w] certainly entailed.{s] [dash}3{- - -{dash] [s}Sir Reginald is very [w}in[hyphen}colon2{}:{l]
 [l}:{hyphen]firm{w], & not likely to stand in your way long.{s] [dash}1{}-{dash] [s}I{l]
-[l}hear the young [capital}Man{capital] well spoken of, & tho' no{l]
-[l}one can really deserve you my dearest Susan, M[place}sup{}r{place].{l]
+[l}hear the young [rend [capital}Man{capital] well spoken of, & tho' no{l]
+[l}one can really deserve you my dearest Susan, M[rend [place}sup{]}r{rend].{l]
 [l}De Courcy may be worth having.{s] [dash}1{}{dash] Manwaring{l]
 [l}will storm of course, but you may easily [w}pa[hyphen}colon2{}:{l]
 [l}:{hyphen]cify{w] him.{s] [s}Besides, the most scrupulous point{l]
@@ -21,7 +21,7 @@
 ***NOTE: sentence and paragraph continue***
 
 [page}30{}
-[pagenumber [place}left-corner{]}30{]
+[pagenumber [rend [place}left-corner{]}30{rend]pagenumber]
 [l}to [capital}Town{capital] for a few days last week, & called several{l] 
 [l}times in Edward Street.{s] [s}I talked to him about you{l] 
 [l}& your daughter, & he is so far from having forgotten{l] 

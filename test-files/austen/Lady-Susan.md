@@ -31,15 +31,14 @@
 
 Data-centric hierarchy (physical structure of document)
 
-- page
-- rend (and "place-attribute")
+- page / pagenumber
 - line
 - del
 
 Text-centric hierarchy (narratological structure of text; particularities of Austen)
 
-- pagenumber
 - title
+- rend (such as  "place"-attribute)
 - indent
 - sentence (s)
 - dash
