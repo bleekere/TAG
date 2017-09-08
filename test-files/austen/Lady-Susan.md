@@ -74,7 +74,7 @@ Description: represents a grammatical (not necessarily an ortographic) word
 | page |  [not allowed] | is contained by | is dominated by  | is contained by | is contained by | is contained by |
 | p | contains | [not allowed] | is contained by | is dominated by | is contained by | can be contained by | 
 |line | dominates | contains | [not allowed] | is contained by | is contained by | is dominated by |
-| w | contains | contains | contains | [not allowed] | is dominated by | 
+| w | contains | dominates | contains | [not allowed] | is dominated by | 
 | hyphen | contains | contains | contains | dominates | [not allowed] |
 
 
