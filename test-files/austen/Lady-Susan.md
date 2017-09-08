@@ -65,17 +65,17 @@ Description: indicates a _topographic_ line in the document (so not verse, which
 Description: represents a grammatical (not necessarily an ortographic) word
 
 - should contain ```hyphen```, alphanumeric characters 
-- cannot contain ```l```
+- can contain ```line```
 - dominates ```hyphen```
 
 
-| | page | p | line | w | hyphen |  
-|---| :---: | :---: | :---: | :---: | :---: |
-| page |  - | is contained by | is dominated by  | is contained by | is contained by | 
-| p | contains | - | is contained by | is dominated by | is contained by |
-|line | dominates | contains | - | is contained by | is contained by |
-| w | contains | contains | contains | - | is dominated by |
-| hyphen | contains | contains | contains | dominates | - |
+| | page | p | line | w | hyphen | rend |
+|---| :---: | :---: | :---: | :---: | :---: | :---: | 
+| page |  [not allowed] | is contained by | is dominated by  | is contained by | is contained by | is contained by |
+| p | contains | [not allowed] | is contained by | is dominated by | is contained by | can be contained by | 
+|line | dominates | contains | [not allowed] | is contained by | is contained by | is dominated by |
+| w | contains | contains | contains | [not allowed] | is dominated by | 
+| hyphen | contains | contains | contains | dominates | [not allowed] |
 
 
 
