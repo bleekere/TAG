@@ -18,6 +18,29 @@
 - documentary aspects of manuscript
 - whitespace 
 
+### Hierarchies
+#### Data-centric
+
+- page
+- indent
+- line
+- margin
+
+#### Text-centric
+
+- title
+- speech (sp)
+- space and its "quantity"-attributes
+- s
+- quote (q)
+- paragraph (p)
+- emph
+- excerpt
+
+#### "Time-centric" / "temporal"
+
+- stage and its attributes
+
 ## Queries
 1. Find all the stage directions that are not directly in a speech (sp)
 2. Find all lines that contain both a speech and a stage direction
