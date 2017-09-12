@@ -69,6 +69,22 @@ Description: represents a grammatical (not necessarily an ortographic) word
 - dominates ```hyphen```
 
 
+**letter** 
+Description: division of text, in this case a letter or an excerpt of a letter. In TEI a text division is often marked up like ```<div type="letter">``` but for this test-encoding of *Lady Susan* we created a proper ```letter``` element.
+
+- should contain ```p```, ```title```, ```l```
+- dominates ```p```, ```line```, ```w```, ```hyphen```, ```del```, ```add```, ```rend```, ```capital```, ```emph```
+- is dominated by [nothing in this excerpt, but in theory it can be dominated by an overarching tag like ```text```
+- cannot contain ```pagenumber```
+- attributes ```n```
+
+**pagenumber**
+Description: authorial page numbering
+
+- attributes: ```rend```
+- should contain: ```l```, alphanumeric characters
+- is contained by ```page```
+
 | | page | p | line | w | hyphen | letter | page number |
 |---| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | page |  [not allowed] | is contained by | is dominated by  | is contained by | is contained by | is contained by | is dominated by |
@@ -79,17 +95,16 @@ Description: represents a grammatical (not necessarily an ortographic) word
 | letter | contains | is dominated by | is dominated by | is dominated by | is dominated by | [not allowed] | [not allowed] | 
 | page number | dominates | [not allowed] | is dominated by | is dominated by | is dominated by | [not allowed] | [not allowed] |
 
-**NB**. In this matrix, domination does not necessarily imply requirement. For instance, a ```page number``` dominates a ```line``` but a ```line``` does not require a ```page number``` as a parent (it could also have a ```page``` as a parent).
+**NB**. Dominance implies containment. In this matrix, domination does not necessarily imply requirement. For instance, a ```page number``` dominates a ```line``` but a ```line``` does not require a ```page number``` as a parent (it could also have a ```page``` as a parent).
+
+----------
+
+The matrix above demonstrates that "containment" is a characteristic of nearly all elements. More interesting are the elements that dominate one another and/or the elements that cannot be combined. Matrix 2 focuses on those. 
 
 
 
+---------
 
-**pagenumber**  
-Description: authorial page numbering
-
-- attributes: ```rend```
-- should contain: ```l```, alphanumeric characters
-- is contained by ```page```
 
 
 **rend**  
