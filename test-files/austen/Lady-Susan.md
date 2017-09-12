@@ -85,6 +85,8 @@ Description: authorial page numbering
 - should contain: ```l```, alphanumeric characters
 - is contained by ```page```
 
+## Matrix 1
+
 | | page | p | line | w | hyphen | letter | page number |
 |---| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | page |  [not allowed] | is contained by | is dominated by  | is contained by | is contained by | is contained by | is dominated by |
@@ -101,7 +103,7 @@ Description: authorial page numbering
 
 The matrix above demonstrates that "containment" is a characteristic of nearly all elements. More interesting are the elements that dominate one another and/or the elements that cannot be combined. Matrix 2 focuses on those. 
 
-
+## Matrix 2
 
 ---------
 
