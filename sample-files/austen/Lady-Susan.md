@@ -162,7 +162,7 @@ Matrix 1 demonstrates that "containment" is a characteristic of nearly all eleme
 So we can say that: 
 
 	text > page > lines > characters
-	text > letter > title > salute > content > sentence > w
+	text > letter > title | salute | content > sentence > w
 	
 
 ## Attempt to divide the tags by hierarchy
