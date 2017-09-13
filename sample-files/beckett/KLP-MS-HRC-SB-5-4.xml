@@ -1,0 +1,1868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Krapp's Last Tape</title>
+                <author xml:id="SB">Samuel Beckett</author>
+                <principal xml:id="DVH">Dirk Van Hulle</principal>
+                <funder>
+                    <name>Centre for Manuscript Genetics (UA)</name>
+                    <address>
+<addrLine>Universiteit Antwerpen (UA)</addrLine>
+<addrLine>Prinsstraat 13</addrLine>
+<addrLine>B-2000 Antwerpen</addrLine>
+<addrLine>Belgium</addrLine>
+<addrLine>tel: +32 (0)3 220 42 46</addrLine>
+<addrLine>email: dirk.vanhulle@ua.ac.be</addrLine>
+</address>
+                </funder>
+                <respStmt>
+                    <name>Dirk Van Hulle</name>
+                    <resp> SBDMP coordinator, encoding scheme, TEI customization </resp>
+                </respStmt>
+                <respStmt>
+                    <name>Vincent Neyt</name>
+                    <resp> Project architecture, encoding scheme, TEI customization </resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority> Centre for Manuscript Genetics (University of Antwerp) </authority>
+                <pubPlace>Antwerp</pubPlace>
+                <availability>
+                    <p>Not to be distributed outside the project</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    <hi rend="i">Not I and Krapp's Last Tape</hi> . Mimeographed acting versions.
+                    London: Royal Court Theatre [1972]. Folio, loose in sheets within red paper
+                    covers. <lb/>
+                    <lb/> Lake, Carlton, ed. (1984), <hi rend="i"> No Symbols Where None Intended: A
+                        Catalogue of Books, Manuscripts and Other Material Relating to Samuel
+                        Beckett in the Collections of the Humanities Research Center </hi> (Austin:
+                    Humanities Research Center), p. 155 </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <p>
+                    <list type="simple">
+                        <item>Correction:</item>
+                        <item>Normalization:</item>
+                        <item>Quotation:</item>
+                        <item>Hyphenation:</item>
+                        <item>Interpretation:</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote scope="major" medium="black_ink" xml:id="typist"/>
+                <handNote medium="black_ink"/>
+            </handNotes>
+        </profileDesc>
+    </teiHeader>
+    <text xml:id="MS-HRC-SB-5-4">
+        <front>
+            <castList>
+                <castItem type="role">
+                    <name xml:id="Krapp">Krapp</name>
+                </castItem>
+                <castItem type="role">
+                    <name xml:id="Tape">Tape</name>
+                </castItem>
+            </castList>
+        </front>
+        <body>
+            <div type="typescript">
+                <head xml:id="krapp54head1">
+                    <hi rend="underline">"KRAPP'S LAST TAPE"</hi>
+                    <note resp="#DVH">centred</note>
+                    <lb/>
+                </head>
+                <note resp="#DVH"> This version of \'Krapp\' Last Tape\' is part of a folder that
+                    also contains a (computer printout) version of \'Not I\' for a performance at
+                    the Royal Court Theatre. The title page of the folder mentions the two titles:
+                    \' "NOT I" and "KRAPP\'S LAST TAPE" by Samuel Beckett\', and in the bottom right
+                    corner: \'Royal Court Theatre, Sloane Square, London, S.W.1. Tel: 730 5174/ 9\' </note>
+                <pb n="12r"/>
+                <metamark function="pagenumber">
+                    <num>2.1</num>
+                </metamark>
+                <head xml:id="krappd1e16437">
+                    <hi rend="u">ACT TWO</hi>
+                </head>
+                <stage>
+                    <note resp="#DVH">all stage directions indented</note>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16444" n="MS-HRC-SB-5-4,[0001]" zone="zone_01"
+                            corresp="#12r"> A late evening in the future. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16450" zone="zone_01" n="MS-HRC-SB-5-4,[0002]"> KRAPP's
+                            den. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16456" zone="zone_01" n="MS-HRC-SB-5-4,[0003]"> Off
+                            centre a small table, one drawer on <lb rend="it"/> side audience right,
+                            unlocked. </seg>
+                        <seg xml:id="krappd1e16459" zone="zone_01" n="MS-HRC-SB-5-4,[0003|001]"> No
+                            keys. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16465" zone="zone_01" n="MS-HRC-SB-5-4,[0004]"> Sitting
+                            at the table, facing front, a <lb rend="it"/> wearish old man: KRAPP.
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16471" zone="zone_02" corresp="#12r"
+                            n="MS-HRC-SB-5-4,[0005]"> Rusty black narrow trousers too short <lb
+                                rend="it"/> for him. </seg>
+                        <seg xml:id="krappd1e16474" zone="zone_02" n="MS-HRC-SB-5-4,[0006]"> Rusty
+                            black sleeveless waistcoat, <lb rend="it"/> four capacious pockets. </seg>
+                        <seg xml:id="krappd1e16477" zone="zone_02" n="MS-HRC-SB-5-4,[0007]"> Heavy
+                            silver watch <lb rend="it"/> and chain. </seg>
+                        <seg xml:id="krappd1e16480" zone="zone_02" n="MS-HRC-SB-5-4,[0008]"> Grimy
+                            white shirt open at neck, <lb rend="it"/> no collar. </seg>
+                        <seg xml:id="krappd1e16483" zone="zone_02" n="MS-HRC-SB-5-4,[0009]">
+                            Surprising pair of dirty white <lb rend="it"/> boots, size ten at least,
+                            very narrow and <lb rend="it"/> pointed. </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16489" zone="zone_03" corresp="#12r"
+                            n="MS-HRC-SB-5-4,[0010]">White face.</seg>
+                        <seg xml:id="krappd1e16492" zone="zone_03" n="MS-HRC-SB-5-4,[0012]"
+                            >Disordered grey hair.</seg>
+                        <seg xml:id="krappd1e16495" zone="zone_03" n="MS-HRC-SB-5-4,[0013]"> Un <lb
+                                rend="-it"/> shaven. </seg>
+                        <seg xml:id="krappd1e16498" zone="zone_03" n="MS-HRC-SB-5-4,[0014]"> Very
+                            near-sighted (but unspectacled). <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e16501" zone="zone_03" n="MS-HRC-SB-5-4,[0015]">Hard of
+                            hearing.</seg>
+                        <seg xml:id="krappd1e16504" zone="zone_03" n="MS-HRC-SB-5-4,[0016]">Cracked
+                            voice.</seg>
+                        <seg xml:id="krappd1e16507" zone="zone_03" n="MS-HRC-SB-5-4,[0017]">
+                            Distinctive <lb rend="it"/> intonation. </seg>
+                        <seg xml:id="krappd1e16510" zone="zone_03" n="MS-HRC-SB-5-4,[0018]">
+                            Laborious walk. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16516" zone="zone_03" n="MS-HRC-SB-5-4,[0019]"> Table
+                            bare. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16522" zone="zone_03" n="MS-HRC-SB-5-4,[0020]"> Table
+                            and immediately adjacent area in <lb rend="it"/> strong white light. </seg>
+                        <seg xml:id="krappd1e16525" zone="zone_03" n="MS-HRC-SB-5-4,[0021]"> Rest of
+                            stage in darkness. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16531" zone="zone_04" corresp="#12r"
+                            n="MS-HRC-SB-5-4,[0022]"> KRAPP remains a moment motionless, <lb
+                                rend="it"/> heaves a great sigh, looks at his watch, <lb rend="it"/>
+                            fumbles in his pockets, gets up and moves <lb rend="it"/> to side of
+                            table. </seg>
+                        <seg xml:id="krappd1e16534" zone="zone_04" n="MS-HRC-SB-5-4,[0023]"> He
+                            stoops, opens drawer, <lb rend="it"/> peers into it, feels about inside
+                            it, takes <lb rend="it"/> out a large banana. </seg>
+                        <seg xml:id="krappd1e16537" zone="zone_04" n="MS-HRC-SB-5-4,[0024]"> He
+                            turns, advances to <lb rend="it"/> edge of stage, halts, strokes banana,
+                            peels <lb rend="it"/> it, drops skin at his feet, puts end of <lb
+                                rend="it"/> banana in his mouth and remains motionless, <lb
+                                rend="it"/> staring vacuously before him. </seg>
+                        <seg xml:id="krappd1e16540" zone="zone_05" corresp="#12r"
+                            style="indent130px" n="MS-HRC-SB-5-4,[0025]"> Finally he <lb rend="it"/>
+                            bites off the end, turns aside and begins <lb rend="it"/> pacing to and
+                            fro at edge of stage, in the <lb rend="it"/> light, i.e. not more than
+                            four or five paces <lb rend="it"/> either way, meditatively eating
+                            banana. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e16543" zone="zone_05" n="MS-HRC-SB-5-4,[0026]"> He
+                            treads on skin, slips, nearly falls, <lb rend="it"/> recovers himself,
+                            stoops and peers at <lb rend="it"/> skin and finally picks it up and
+                            throws it <lb rend="it"/> away backstage audience right. </seg>
+                        <seg xml:id="krappd1e16546" zone="zone_05" n="MS-HRC-SB-5-4,[0027]"
+                            rend="part1"> He resumes <lb rend="it"/> his pacing, finishes banana,
+                            broods, <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <pb n="13r"/>
+                    <metamark function="pagenumber">
+                        <add place="margintop" rend="typewriter" hand="#typist" resp="#DVH">
+                            <num>2.2</num>
+                        </add>
+                    </metamark>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16546part2" n="MS-HRC-SB-5-4,[0027]" zone="zone_06"
+                            corresp="#13r" rend="part2"> returns to drawer, takes out second <lb
+                                rend="it"/> banana, advances to edge of stage, halts, <lb rend="it"
+                            /> strokes banana, peels it, tosses skin <lb rend="it"/> backstage
+                            audience right (gag), puts end <lb rend="it"/> of banana in his mouth
+                            and remains motion <lb rend="-it"/> less, staring vacuously before him. </seg>
+                        <seg xml:id="krappd1e16554" n="MS-HRC-SB-5-4,[0028]" zone="zone_07"
+                            corresp="#13r" style="indent140px"> Finally <lb rend="it"/> he has an
+                            idea, throws away banana back <lb rend="-it"/> stage audience right, and
+                            goes with all the <lb rend="it"/> speed he can muster backstage, draws
+                                <lb rend="it"/> curtain of den half open, disappears inside, <lb
+                                rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e16557" n="MS-HRC-SB-5-4,[0032]" zone="zone_08"
+                            corresp="#13r"> reappears with ledger, lays it on table, <lb rend="it"/>
+                            returns to den, reappears with tins contain <lb rend="-it"/> ing reels,
+                            lays them on table, returns to <lb rend="it"/> den, reappears with tape
+                            recorder, lays it <lb rend="it"/> on table, plugs it in, sits, (no drink
+                            here. <lb rend="it"/> Two drinks in all, where marked), </seg>
+                        <seg xml:id="krappd1e16560" zone="zone_08" n="MS-HRC-SB-5-4,[0033]"> wipes
+                                <lb rend="it"/> his mouth, wipes his hands on the front <lb
+                                rend="it"/> of his waistcoat, brings them smartly <lb rend="it"/>
+                            together and rubs them. <lb rend="it"/>
+                        </seg>
+                    </p>
+                </stage>
+                <sp who="#Krapp">
+                    <speaker>KRAPP:</speaker>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16570" n="MS-HRC-SB-5-4,[0034]" zone="zone_09"
+                            corresp="#13r">
+                            <stage>(briskly)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16575" n="MS-HRC-SB-5-4,[0035]" zone="zone_09"
+                            >Ah!</seg>
+                        <seg xml:id="krappd1e16578" n="MS-HRC-SB-5-4,[0036]" zone="zone_09">
+                            <stage> (He bends over ledger, turns the <lb rend="it"/> pages, finds
+                                the entry he wants, reads) </stage>
+                        </seg>
+                        <seg xml:id="krappd1e16582" n="MS-HRC-SB-5-4,[0037]" zone="zone_09">
+                            Box...thrree <lb rend="it"/> ...spool...five. </seg>
+                        <stage> ( <seg xml:id="krappd1e16587" n="MS-HRC-SB-5-4,[0038]"
+                                zone="zone_09"> he raises his head and stares <lb rend="it"/> front. </seg>
+                            <seg xml:id="krappd1e16590" n="MS-HRC-SB-5-4,[0039]" zone="zone_09">With
+                                relish</seg> ) </stage>
+                        <seg xml:id="krappd1e16594" n="MS-HRC-SB-5-4,[0040]" zone="zone_09"
+                            >Spool!</seg>
+                        <seg xml:id="krappd1e16597" n="MS-HRC-SB-5-4,[0041]" zone="zone_09">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16601" n="MS-HRC-SB-5-4,[0042]" zone="zone_09">
+                            Spooool! <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e16604" n="MS-HRC-SB-5-4,[0043]" zone="zone_09">
+                            <stage> (happy smile) <lb rend="it"/>
+                            </stage>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e16613" n="MS-HRC-SB-5-4,[0044]"
+                                    zone="zone_10" corresp="#13r">Pause.</seg>
+                                <seg xml:id="krappd1e16616" n="MS-HRC-SB-5-4,[0045]" zone="zone_10">
+                                    He bends over table, starts peer <lb rend="-it"/> ing and poking
+                                    at the boxes <lb rend="it"/>
+                                </seg> ) </stage>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16621" n="MS-HRC-SB-5-4,[0046]" zone="zone_11"
+                            corresp="#13r"> Box...thrree...thrree...four...two... <stage> (with <lb
+                                    rend="it"/> surprise) </stage> nine! good God! ...seven... ah!
+                            the <lb rend="it"/> little rascal! </seg>
+                        <seg xml:id="krappd1e16627" n="MS-HRC-SB-5-4,[0047]" zone="zone_11">
+                            <stage>(he takes up box, peers at it)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16631" n="MS-HRC-SB-5-4,[0048]" zone="zone_11"> Box <lb
+                                rend="it"/> thrree. </seg>
+                        <seg xml:id="krappd1e16634" n="MS-HRC-SB-5-4,[0049]" zone="zone_11">
+                            <stage> (he lays it on table, opens it and peers at <lb rend="it"/>
+                                spools inside) </stage>
+                        </seg>
+                        <seg xml:id="krappd1e16638" n="MS-HRC-SB-5-4,[0050]" zone="zone_11">
+                            Spool... <stage>(he peers at ledger)</stage> ... <lb rend="it"/> five...
+                                <stage>(he peers at spools)</stage> ...five...five... <lb rend="it"
+                            /> ah! the little scoundrel! </seg>
+                        <seg xml:id="krappd1e16647" n="MS-HRC-SB-5-4,[0051]" zone="zone_11">
+                            <stage> (he takes out a spool, peers <lb rend="it"/> at it) </stage>
+                        </seg>
+                        <seg xml:id="krappd1e16651" n="MS-HRC-SB-5-4,[0052]" zone="zone_11">Spool
+                            five.</seg>
+                        <seg xml:id="krappd1e16654" n="MS-HRC-SB-5-4,[0053]" zone="zone_11">
+                            <stage> (he lays it on table, closes box <lb rend="it"/> three, puts it
+                                back with the others, takes up the spool) <lb rend="it"/>
+                            </stage>
+                        </seg>
+                        <seg xml:id="krappd1e16658" n="MS-HRC-SB-5-4,[0054]" zone="zone_11"> Box
+                            thrree, spool five. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e16664" n="MS-HRC-SB-5-4,[0055]"
+                                    zone="zone_12" corresp="#13r"> He bends over the machine, looks
+                                    up <lb rend="it"/>
+                                </seg> ) </stage>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <stage> ( <seg xml:id="krappd1e16669" n="MS-HRC-SB-5-4,[0056]"
+                                zone="zone_12">with relish</seg> ) </stage>
+                        <seg xml:id="krappd1e16673" n="MS-HRC-SB-5-4,[0057]" zone="zone_12"
+                            >Spoooool!</seg>
+                        <stage> ( <seg xml:id="krappd1e16678" n="MS-HRC-SB-5-4,[0058]"
+                                zone="zone_12"> happy smile <lb rend="it"/>
+                            </seg> ) </stage>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e16685" n="MS-HRC-SB-5-4,[0059]"
+                                    zone="zone_13" corresp="#13r"> He bends, loads spool on machine,
+                                    rubs <lb rend="it"/> his hands <lb rend="it"/>
+                                </seg> ) </stage>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16690" zone="zone_13" n="MS-HRC-SB-5-4,[0060]"
+                            >Ah!</seg>
+                        <seg xml:id="krappd1e16693" n="MS-HRC-SB-5-4,[0061]" zone="zone_13">
+                            <stage>(he peers at ledger, reads entry at foot of page)</stage>
+                            <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e16697" n="MS-HRC-SB-5-4,[0062]" zone="zone_13">Mother
+                            at rest at last...</seg>
+                        <seg xml:id="krappd1e16699" n="MS-HRC-SB-5-4,[0063]" zone="zone_13"
+                            >Hm...</seg>
+                        <seg xml:id="krappd1e16701" n="MS-HRC-SB-5-4,[0064]" zone="zone_13"> The
+                            black ball... <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <pb n="14r"/>
+                    <metamark function="pagenumber">
+                        <add place="margintop" rend="typewriter" hand="#typist" resp="#DVH">
+                            <num>2.3</num>
+                        </add>
+                    </metamark>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e16712" zone="zone_14" corresp="#14r"
+                                    n="MS-HRC-SB-5-4,[0065]"> He raises his head, stares blankly <lb
+                                        rend="it"/> front </seg> ) </stage>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <note resp="#DVH"> \'KRAPP: <lb/> (contd)\' in the left margin </note>
+                        <stage> ( <seg xml:id="krappd1e16721" n="MS-HRC-SB-5-4,[0066]"
+                                zone="zone_15" corresp="#14r">puzzled</seg> ) </stage>
+                        <seg xml:id="krappd1e16725" n="MS-HRC-SB-5-4,[0067]" zone="zone_15">Black
+                            ball?...</seg>
+                        <stage> ( <seg xml:id="krappd1e16727" n="MS-HRC-SB-5-4,[0068]"
+                                zone="zone_15"> he peers again at <lb rend="it"/> ledger, reads
+                            </seg> ) </stage>
+                        <seg xml:id="krappd1e16731" n="MS-HRC-SB-5-4,[0069]" zone="zone_15">The dark
+                            nurse...</seg>
+                        <seg xml:id="krappd1e16733" n="MS-HRC-SB-5-4,[0070]" zone="zone_15">
+                            <stage> (he raises his <lb rend="it"/> head, broods, peers again at
+                                ledger, reads) </stage>
+                        </seg>
+                        <seg xml:id="krappd1e16737" n="MS-HRC-SB-5-4,[0071]" zone="zone_15"> Slight
+                                <lb rend="it"/> improvement in bowel condition... </seg>
+                        <seg xml:id="krappd1e16739" n="MS-HRC-SB-5-4,[0072]" zone="zone_15"
+                            >Hm...</seg>
+                        <seg xml:id="krappd1e16741" n="MS-HRC-SB-5-4,[0073]" zone="zone_15"
+                            style="nospacebefore"> Memor <lb rend="-it"/> able...what? </seg>
+                        <seg xml:id="krappd1e16744" n="MS-HRC-SB-5-4,[0074]" zone="zone_15">
+                            <stage>(he peers closer)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16748" n="MS-HRC-SB-5-4,[0075]" zone="zone_15">
+                            Equinox, memor <lb rend="-it"/> able equinox. </seg>
+                        <stage> ( <seg xml:id="krappd1e16753" n="MS-HRC-SB-5-4,[0076]"
+                                zone="zone_15"> he raises his head, stares blankly <lb rend="it"/>
+                                front. </seg>
+                            <seg xml:id="krappd1e16756" n="MS-HRC-SB-5-4,[0077]" zone="zone_15"
+                                >Puzzled</seg> ) </stage>
+                        <seg xml:id="krappd1e16760" n="MS-HRC-SB-5-4,[0078]" zone="zone_15">
+                            Memorable equinox?... <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e16768" n="MS-HRC-SB-5-4,[0079]"
+                                    zone="zone_16" corresp="#14r">Pause.</seg>
+                                <seg xml:id="krappd1e16771" n="MS-HRC-SB-5-4,[0080]" zone="zone_16">
+                                    He shrugs his shoulders, peers <lb rend="it"/> again at ledger,
+                                    reads <lb rend="it"/>
+                                </seg> ) </stage>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16776" n="MS-HRC-SB-5-4,[0081]" zone="zone_16">
+                            Farewell to - <stage>(he turns page)</stage> - love. <lb rend="it"/>
+                        </seg>
+                    </p>
+                </sp>
+                <stage>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16786" n="MS-HRC-SB-5-4,[0082]" zone="zone_17"
+                            corresp="#14r"> (He raises his head, broods, bends over <lb rend="it"/>
+                            machine, switches on and assumes <lb rend="it"/> listening posture, i.e.
+                            leaning forward, <lb rend="it"/> elbows on table, hand cupping ear
+                            towards <lb rend="it"/> machine, face front. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16792" n="MS-HRC-SB-5-4,[0082|001]" zone="zone_17">
+                            (Action interrupted by first look over left <lb rend="it"/> shoulder
+                            into darkness backstage) ) <lb rend="it"/>
+                        </seg>
+                    </p>
+                </stage>
+                <sp who="#Tape">
+                    <speaker>TAPE:</speaker>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16800" n="MS-HRC-SB-5-4,[0083]" zone="zone_18"
+                            corresp="#14r">
+                            <stage> (strong voice, rather pompous, clearly KRAPP's <lb rend="it"/>
+                                at a much earlier time) </stage>
+                        </seg>
+                        <seg xml:id="krappd1e16804" n="MS-HRC-SB-5-4,[0084]" zone="zone_18">
+                            Thirty-nine today, sound <lb rend="it"/> as a - </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e16810" n="MS-HRC-SB-5-4,[0085]" zone="zone_19"
+                                corresp="#14r">
+                                <stage> (Settling himself more comfortably he <lb rend="it"/> knocks
+                                    one of the boxes off the table, <lb rend="it"/> curses, switches
+                                    off, sweeps boxes and <lb rend="it"/> ledger violently to the
+                                    ground, winds <lb rend="it"/> tape back to beginning, switches
+                                    on, re <lb rend="-it"/> sumes posture) </stage>
+                                <lb rend="it"/>
+                            </seg>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16815" n="MS-HRC-SB-5-4,[0086]" zone="zone_20"
+                            corresp="#14r"> Thirty-nine today, sound as a bell, apart from my <lb
+                                rend="it"/> old weakness, and intellectually I have now every <lb
+                                rend="it"/> reason to suspect at the... <stage>(hesitates)</stage>
+                            ...crest <lb rend="it"/> of the wave - or thereabouts. </seg>
+                        <seg xml:id="krappd1e16821" zone="zone_20" n="MS-HRC-SB-5-4,[0087]">
+                            Celebrated the awful <lb rend="it"/> occasion, as in recent years,
+                            quietly at the Wine <lb rend="-it"/> house. </seg>
+                        <seg xml:id="krappd1e16824" zone="zone_20" n="MS-HRC-SB-5-4,[0088]">Not a
+                            soul.</seg>
+                        <seg xml:id="krappd1e16827" n="MS-HRC-SB-5-4,[0089]" zone="zone_20"> Sat
+                            before the fire with closed <lb rend="it"/> eyes, separating the grain
+                            from the husks. </seg>
+                        <seg xml:id="krappd1e16830" n="MS-HRC-SB-5-4,[0090]" zone="zone_21"
+                            corresp="#14r" style="indent180px"> Jotted <lb rend="it"/> down a few
+                            notes, on the back of an envelope. </seg>
+                        <seg xml:id="krappd1e16833" n="MS-HRC-SB-5-4,[0091]" zone="zone_21"> Good
+                                <lb rend="it"/> to be back in my den, in my old rags. </seg>
+                        <seg xml:id="krappd1e16836" n="MS-HRC-SB-5-4,[0092]" zone="zone_21"> Have
+                            just <lb rend="it"/> eaten I regret to say three bananas and only with
+                                <lb rend="it"/> difficulty refrained from a fourth. </seg>
+                        <seg xml:id="krappd1e16839" n="MS-HRC-SB-5-4,[0093]" zone="zone_21"> Fatal
+                            things for a <lb rend="it"/> man with my condition. </seg>
+                        <seg xml:id="krappd1e16842" n="MS-HRC-SB-5-4,[0094]" zone="zone_21">
+                            <stage>(vehemently)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16846" n="MS-HRC-SB-5-4,[0095]" zone="zone_21"> Cut 'em
+                            out! <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e16849" n="MS-HRC-SB-5-4,[0096]" zone="zone_21">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16853" n="MS-HRC-SB-5-4,[0097]" zone="zone_21"
+                            rend="part1"> The new light above my table is a great <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <pb n="15r"/>
+                    <metamark function="pagenumber">
+                        <add place="margintop" rend="typewriter" hand="#typist" resp="#DVH">
+                            <num>2.4</num>
+                        </add>
+                    </metamark>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16853part2" n="MS-HRC-SB-5-4,[0097]" zone="zone_22"
+                            corresp="#15r" rend="part2">improvement.</seg>
+                        <seg xml:id="krappd1e16861" zone="zone_22" n="MS-HRC-SB-5-4,[0098]"> With
+                            all this darkness round me I <lb rend="it"/> feel less alone. </seg>
+                        <seg xml:id="krappd1e16864" zone="zone_22" n="MS-HRC-SB-5-4,[0099]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16868" zone="zone_22" n="MS-HRC-SB-5-4,[0100]">In a
+                            way.</seg>
+                        <seg xml:id="krappd1e16871" n="MS-HRC-SB-5-4,[0101]" zone="zone_22">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16875" zone="zone_22" n="MS-HRC-SB-5-4,[0102]"> I <lb
+                                rend="it"/> love to get up and move about in it, then back here <lb
+                                rend="it"/> to... <stage>(hesitates)</stage> ...me. </seg>
+                        <seg xml:id="krappd1e16881" zone="zone_22" n="MS-HRC-SB-5-4,[0103]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16885" zone="zone_22" n="MS-HRC-SB-5-4,[0104]"> Krapp.
+                                <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e16892" n="MS-HRC-SB-5-4,[0105]" zone="zone_22">
+                                <stage>(Pause)</stage>
+                            </seg>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16897" n="MS-HRC-SB-5-4,[0106]" zone="zone_23"
+                            corresp="#15r"> The grain, now what I wonder do I mean by that, I <lb
+                                rend="it"/> mean... <stage>(hesitates)</stage> ...I suppose I mean
+                            those <lb rend="it"/> things worth having when all the dust has - when
+                            all <lb rend="it"/>
+                            <hi rend="u">my</hi> dust has settled. </seg>
+                        <seg xml:id="krappd1e16906" n="MS-HRC-SB-5-4,[0107]" zone="zone_23"> I close
+                            my eyes and try and <lb rend="it"/> imagine them. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e16915" n="MS-HRC-SB-5-4,[0108]"
+                                    zone="zone_23">Pause.</seg>
+                                <seg xml:id="krappd1e16918" n="MS-HRC-SB-5-4,[0109]" zone="zone_23">
+                                    KRAPP closes his eyes briefly <lb rend="it"/>
+                                </seg> ) </stage>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16923" n="MS-HRC-SB-5-4,[0110]" zone="zone_24"
+                            corresp="#15r"> Extraordinary silence this evening, I strain my ears <lb
+                                rend="it"/> and do not hear a sound. </seg>
+                        <seg xml:id="krappd1e16926" n="MS-HRC-SB-5-4,[0111]" zone="zone_24"> Old
+                            Miss McGlome always <lb rend="it"/> sings at this hour. </seg>
+                        <seg xml:id="krappd1e16929" n="MS-HRC-SB-5-4,[0112]" zone="zone_24">But not
+                            tonight.</seg>
+                        <seg xml:id="krappd1e16932" n="MS-HRC-SB-5-4,[0113]" zone="zone_24"> Songs
+                            of her girl <lb rend="-it"/> hood, she says. </seg>
+                        <seg xml:id="krappd1e16935" n="MS-HRC-SB-5-4,[0114]" zone="zone_24">Hard to
+                            think of her as a girl.</seg>
+                        <seg xml:id="krappd1e16938" n="MS-HRC-SB-5-4,[0115]" zone="zone_24"> Wonder
+                                <lb rend="-it"/> ful woman though. </seg>
+                        <seg xml:id="krappd1e16941" n="MS-HRC-SB-5-4,[0116]" zone="zone_24"
+                            >Connaught, I fancy.</seg>
+                        <seg xml:id="krappd1e16944" n="MS-HRC-SB-5-4,[0117]" zone="zone_24">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16948" n="MS-HRC-SB-5-4,[0118]" zone="zone_24"> Shall
+                                <lb rend="it"/> I sing when I am her age, if I ever am? </seg>
+                        <seg xml:id="krappd1e16951" n="MS-HRC-SB-5-4,[0119]" zone="zone_24"
+                            >No.</seg>
+                        <seg xml:id="krappd1e16954" n="MS-HRC-SB-5-4,[0120]" zone="zone_24">
+                            <stage>(pause)</stage>
+                            <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e16958" n="MS-HRC-SB-5-4,[0121]" zone="zone_24">Did I
+                            sing as a boy?</seg>
+                        <seg xml:id="krappd1e16961" n="MS-HRC-SB-5-4,[0122]" zone="zone_24"
+                            >No.</seg>
+                        <seg xml:id="krappd1e16964" n="MS-HRC-SB-5-4,[0123]" zone="zone_24">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e16968" n="MS-HRC-SB-5-4,[0124]" zone="zone_24"> Did I
+                            ever sing? <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e16971" n="MS-HRC-SB-5-4,[0125]" zone="zone_24"> No. <lb
+                                rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e16977" n="MS-HRC-SB-5-4,[0126]" zone="zone_24">
+                                <stage>(Pause)</stage>
+                            </seg>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e16982" n="MS-HRC-SB-5-4,[0127]" zone="zone_25"
+                            corresp="#15r"> Just been listening to an old year, passages at random.
+                                <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e16985" n="MS-HRC-SB-5-4,[0128]" zone="zone_25"> I did
+                            not check in the book, but it must be at least ten <lb rend="it"/> or
+                            twelve years ago. </seg>
+                        <seg xml:id="krappd1e16988" n="MS-HRC-SB-5-4,[0129]" zone="zone_25"> At that
+                            time I think I was still <lb rend="it"/> living on and off with Bianca
+                            in Kedar Street. </seg>
+                        <seg xml:id="krappd1e16991" n="MS-HRC-SB-5-4,[0130]" zone="zone_25"> Well
+                                <lb rend="it"/> out of that, Jesus yes! </seg>
+                        <seg xml:id="krappd1e16994" n="MS-HRC-SB-5-4,[0131]" zone="zone_25">Hopeless
+                            business.</seg>
+                        <seg xml:id="krappd1e16997" n="MS-HRC-SB-5-4,[0132]" zone="zone_25">
+                            <stage>(pause)</stage>
+                            <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17001" n="MS-HRC-SB-5-4,[0133]" zone="zone_25"> Not
+                            much about her, apart from a tribute to her eyes. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17004" n="MS-HRC-SB-5-4,[0134]" zone="zone_26"
+                            corresp="#15r">Very warm.</seg>
+                        <seg xml:id="krappd1e17007" zone="zone_26" n="MS-HRC-SB-5-4,[0135]">I
+                            suddenly saw them again.</seg>
+                        <seg xml:id="krappd1e17010" n="MS-HRC-SB-5-4,[0136]" zone="zone_26">
+                            <stage>(pause)</stage>
+                            <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17014" n="MS-HRC-SB-5-4,[0137]" zone="zone_26"
+                            >Incomparable!</seg>
+                        <seg xml:id="krappd1e17017" n="MS-HRC-SB-5-4,[0138]" zone="zone_26">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17021" n="MS-HRC-SB-5-4,[0139]" zone="zone_26">Ah
+                            well...</seg>
+                        <seg xml:id="krappd1e17023" n="MS-HRC-SB-5-4,[0140]" zone="zone_26"
+                            style="nospacebefore">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17027" n="MS-HRC-SB-5-4,[0141]" zone="zone_26"> These
+                                <lb rend="it"/> old P.M.s are gruesome, but I often find them - <lb/>
+                            <lb/>
+                            <hi rend="indented2">
+                                <stage> (KRAPP switches off, broods, switches <lb rend="it"/> on)
+                                </stage>
+                            </hi>
+                            <lb/>
+                            <lb/> - a help before embarking on a new... <stage>(hesitates)</stage>
+                            <lb rend="it"/> ...retrospect. </seg>
+                        <seg xml:id="krappd1e17044" n="MS-HRC-SB-5-4,[0142]" zone="zone_26"> Hard to
+                            believe I was ever that <lb rend="it"/> young whelp. </seg>
+                        <seg xml:id="krappd1e17047" n="MS-HRC-SB-5-4,[0143]" zone="zone_26">The
+                            voice!</seg>
+                        <seg xml:id="krappd1e17050" n="MS-HRC-SB-5-4,[0144]" zone="zone_26"
+                            >Jesus!</seg>
+                        <seg xml:id="krappd1e17053" n="MS-HRC-SB-5-4,[0145]" zone="zone_26"> And the
+                            aspira <lb rend="-it"/> tions! </seg>
+                        <seg xml:id="krappd1e17056" n="MS-HRC-SB-5-4,[0146]" zone="zone_27"
+                            corresp="#15r" style="indent40px">
+                            <stage>(brief laugh in which KRAPP joins)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17060" n="MS-HRC-SB-5-4,[0147]" zone="zone_27"> And <lb
+                                rend="it"/> the resolutions! </seg>
+                        <seg xml:id="krappd1e17063" n="MS-HRC-SB-5-4,[0148]" zone="zone_27">
+                            <stage>(brief laugh in which KRAPP joins)</stage>
+                            <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17067" n="MS-HRC-SB-5-4,[0149]" zone="zone_27">To drink
+                            less, in particular.</seg>
+                        <seg xml:id="krappd1e17070" n="MS-HRC-SB-5-4,[0150]" zone="zone_27">
+                            <stage> (brief laugh of KRAPP <lb rend="it"/> alone) </stage>
+                        </seg>
+                        <seg xml:id="krappd1e17074" n="MS-HRC-SB-5-4,[0151]" zone="zone_27"
+                            >Statistics.</seg>
+                        <seg xml:id="krappd1e17077" zone="zone_27" n="MS-HRC-SB-5-4,[0152]">
+                            Seventeen hundred hours, out of <lb rend="it"/> the preceding eight
+                            thousand odd, consumed on <lb rend="it"/> licensed premises alone. </seg>
+                        <seg xml:id="krappd1e17080" n="MS-HRC-SB-5-4,[0153]" zone="zone_27"
+                            rend="part1"> More than 20 per cent, <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <pb n="16r"/>
+                    <metamark function="pagenumber">
+                        <add place="margintop" rend="typewriter" hand="#typist" resp="#DVH">
+                            <num>2.5</num>
+                        </add>
+                    </metamark>
+                    <note resp="#DVH"> \'TAPE: <lb/> (contd)\' in the left margin </note>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17080part2" n="MS-HRC-SB-5-4,[0153]" zone="zone_28"
+                            corresp="#16r" rend="part2">say 40 per cent of his waking life.</seg>
+                        <seg xml:id="krappd1e17093" n="MS-HRC-SB-5-4,[0154]" zone="zone_28">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17097" n="MS-HRC-SB-5-4,[0155]" zone="zone_28"> Plans
+                                <lb rend="it"/> for a less... <stage>(hesitates)</stage>
+                            ...engrossing sexual <lb rend="it"/> life. </seg>
+                        <seg xml:id="krappd1e17103" n="MS-HRC-SB-5-4,[0156]" zone="zone_28">Last
+                            illness of his father.</seg>
+                        <seg xml:id="krappd1e17106" n="MS-HRC-SB-5-4,[0157]" zone="zone_28">
+                            Flagging pursuit <lb rend="it"/> of happiness. </seg>
+                        <seg xml:id="krappd1e17109" n="MS-HRC-SB-5-4,[0158]" zone="zone_28"
+                            >Unattainable laxation.</seg>
+                        <seg xml:id="krappd1e17112" n="MS-HRC-SB-5-4,[0159]" zone="zone_28"> Sneers
+                            at what <lb rend="it"/> he calls his youth and thanks to God that it's
+                            over. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17115" n="MS-HRC-SB-5-4,[0160]" zone="zone_29"
+                            corresp="#16r">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17119" n="MS-HRC-SB-5-4,[0161]" zone="zone_29">False
+                            ring there.</seg>
+                        <seg xml:id="krappd1e17122" n="MS-HRC-SB-5-4,[0162]" zone="zone_29">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17126" n="MS-HRC-SB-5-4,[0163]" zone="zone_29"> Shadows
+                            of the <lb rend="it"/> opus...magnum. </seg>
+                        <seg xml:id="krappd1e17129" n="MS-HRC-SB-5-4,[0164]" zone="zone_29"> Closing
+                            with a - <stage>(brief laugh)</stage>
+                            <lb rend="it"/> - yelp to Providence. </seg>
+                        <seg xml:id="krappd1e17135" n="MS-HRC-SB-5-4,[0165]" zone="zone_29">
+                            <stage> (prolonged laugh in which <lb rend="it"/> KRAPP joins) </stage>
+                        </seg>
+                        <seg xml:id="krappd1e17139" n="MS-HRC-SB-5-4,[0166]" zone="zone_29"> What
+                            remains of all that misery? <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17142" n="MS-HRC-SB-5-4,[0167]" zone="zone_29"> A girl
+                            in a shabby green coat, on a railway-station <lb rend="it"/> platform? </seg>
+                        <seg xml:id="krappd1e17145" n="MS-HRC-SB-5-4,[0168]" zone="zone_29"> No? <lb
+                                rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e17152" zone="zone_30" corresp="#16r"
+                                n="MS-HRC-SB-5-4,[0169]">
+                                <stage>(Pause)</stage>
+                                <lb rend="it"/>
+                                <lb rend="it"/>
+                            </seg>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17157" zone="zone_30" n="MS-HRC-SB-5-4,[0170]"> When I
+                            look - <lb rend="it"/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                </sp>
+                <stage>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e17166" zone="zone_30"
+                                    n="MS-HRC-SB-5-4,[0171]"> KRAPP switches off, broods, looks at
+                                        <lb rend="it"/> his watch, gets up, goes backstage <lb
+                                        rend="it"/> into darkness. </seg>
+                                <seg xml:id="krappd1e17169" zone="zone_30" n="MS-HRC-SB-5-4,[0172]"
+                                    >Ten seconds.</seg>
+                                <seg xml:id="krappd1e17172" zone="zone_30" n="MS-HRC-SB-5-4,[0173]">
+                                    Pop of <lb rend="it"/> cork. </seg>
+                                <seg xml:id="krappd1e17175" zone="zone_30" n="MS-HRC-SB-5-4,[0174]"
+                                    >Ten seconds.</seg>
+                                <seg xml:id="krappd1e17178" zone="zone_30" n="MS-HRC-SB-5-4,[0175]">
+                                    Second cork. <lb rend="it"/>
+                                </seg>
+                                <seg xml:id="krappd1e17181" zone="zone_30" n="MS-HRC-SB-5-4,[0176]"
+                                    >Ten seconds.</seg>
+                                <seg xml:id="krappd1e17184" zone="zone_30" n="MS-HRC-SB-5-4,[0177]"
+                                    >Third cork.</seg>
+                                <seg xml:id="krappd1e17187" zone="zone_30" n="MS-HRC-SB-5-4,[0178]">
+                                    Ten seconds. <lb rend="it"/>
+                                </seg>
+                                <seg xml:id="krappd1e17190" zone="zone_30" n="MS-HRC-SB-5-4,[0179]"
+                                    >Brief burst of quavering song</seg> ) </stage>
+                            <lb rend="it"/>
+                        </hi>
+                    </p>
+                </stage>
+                <sp who="#Krapp">
+                    <speaker>KRAPP:</speaker>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17199" zone="zone_31" corresp="#16r"
+                            n="MS-HRC-SB-5-4,[0180]">
+                            <stage>(sings)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17203" zone="zone_31" n="MS-HRC-SB-5-4,[0181]"> Now the
+                            day is over, <lb/> Night is drawing nigh-igh, <lb/> Shadows - <lb/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                </sp>
+                <stage>
+                    <p corresp="#p1,">
+                        <hi rend="indented2"> ( <seg xml:id="krappd1e17218" zone="zone_31"
+                                n="MS-HRC-SB-5-4,[0182]">Fit of coughing.</seg>
+                            <seg xml:id="krappd1e17221" zone="zone_31" n="MS-HRC-SB-5-4,[0183]"> He
+                                comes back into <lb rend="it"/> light, sits down, wipes his mouth,
+                                    <lb rend="it"/> switches on, resumes his listening <lb rend="it"
+                                /> posture </seg> ) <lb rend="it"/>
+                        </hi>
+                    </p>
+                </stage>
+                <sp who="#Tape">
+                    <speaker>TAPE:</speaker>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17230" zone="zone_32" corresp="#16r"
+                            n="MS-HRC-SB-5-4,[0184]"> - back on the year that is gone,with what I
+                            hope is <lb rend="it"/> perhaps a glint of the old eye to come, there is
+                            of <lb rend="it"/> course the house on the canal where mother lay a- <lb
+                                rend="it"/> dying, in the late autumn, after her long viduity. <lb
+                                rend="it"/>
+                            <stage>(KRAPP gives a start)</stage> and the - <lb rend="it"/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <stage>
+                        <p corresp="#p1,">
+                            <hi rend="indented2">
+                                <seg xml:id="krappd1e17240" zone="zone_32" n="MS-HRC-SB-5-4,[0185]">
+                                    (KRAPP switches off, winds back tape <lb rend="it"/> a little,
+                                    bends his ear closer to machine, <lb rend="it"/> switches on)
+                                        <lb rend="it"/>
+                                </seg>
+                            </hi>
+                        </p>
+                    </stage>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17244" zone="zone_33" corresp="#16r"
+                            n="MS-HRC-SB-5-4,[0186]"> - a-dying, <note resp="#DVH"> When Krapp winds
+                                back the tape \'in the late autumn\' has disappeared. </note> after
+                            her long viduity, and the - <lb rend="it"/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                </sp>
+                <stage>
+                    <p corresp="#p1,">
+                        <hi rend="indented2"> ( <seg xml:id="krappd1e17256" zone="zone_33"
+                                n="MS-HRC-SB-5-4,[0187]"> KRAPP switches off, raises his head, <lb
+                                    rend="it"/> stares blankly before him. </seg>
+                            <seg xml:id="krappd1e17259" zone="zone_33" n="MS-HRC-SB-5-4,[0188]"> His
+                                lips <lb rend="it"/> move in the syllables of 'viduity'. </seg>
+                            <seg xml:id="krappd1e17262" zone="zone_33" n="MS-HRC-SB-5-4,[0189]"> No
+                                    <lb rend="it"/> sound. </seg>
+                            <seg xml:id="krappd1e17265" zone="zone_33" n="MS-HRC-SB-5-4,[0190]"
+                                rend="part1"> He gets up, goes backstage into <lb rend="it"/>
+                                darkness, comes back with an enormous <lb rend="it"/>
+                            </seg>
+                        </hi>
+                    </p>
+                </stage>
+                <pb n="17r"/>
+                <metamark function="pagenumber">
+                    <add place="margintop" rend="typewriter" hand="#typist" resp="#DVH">
+                        <num>2.6</num>
+                    </add>
+                </metamark>
+                <stage>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e17265part2" zone="zone_34" corresp="#17r"
+                                n="MS-HRC-SB-5-4,[0190]" rend="part2"> dictionary, lays it on table,
+                                sits down <lb rend="it"/> and looks up the word <lb rend="it"/>
+                                <lb rend="it"/>
+                            </seg> ) </hi>
+                    </p>
+                </stage>
+                <sp who="#Krapp">
+                    <speaker>KRAPP:</speaker>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17279" zone="zone_34" n="MS-HRC-SB-5-4,[0191]">
+                            <stage>(reading from dictionary)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17283" zone="zone_34" n="MS-HRC-SB-5-4,[0192]"> State -
+                            or condition - <lb rend="it"/> of being - or remaining - a widow - or
+                            widower. <lb rend="it"/>
+                        </seg>
+                        <stage> ( <seg xml:id="krappd1e17288" zone="zone_34"
+                                n="MS-HRC-SB-5-4,[0193]">looks up.</seg>
+                            <seg xml:id="krappd1e17291" zone="zone_34" n="MS-HRC-SB-5-4,[0194]"
+                                >Puzzled</seg> ) </stage>
+                        <seg xml:id="krappd1e17295" zone="zone_34" n="MS-HRC-SB-5-4,[0195]"> Being -
+                            or remaining?... <lb rend="it"/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <stage>
+                        <p corresp="#p1,">
+                            <hi rend="indented2">
+                                <stage> ( <seg xml:id="krappd1e17304" zone="zone_34"
+                                        n="MS-HRC-SB-5-4,[0196]">Pause.</seg>
+                                    <seg xml:id="krappd1e17307" zone="zone_34"
+                                        n="MS-HRC-SB-5-4,[0197]"> He peers again at dictionary. <lb
+                                            rend="it"/>
+                                    </seg>
+                                    <seg xml:id="krappd1e17310" zone="zone_34"
+                                        n="MS-HRC-SB-5-4,[0198]">Reading</seg> ) </stage> : <lb
+                                    rend="it"/>
+                            </hi>
+                        </p>
+                    </stage>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17316" zone="zone_35" corresp="#17r"
+                            n="MS-HRC-SB-5-4,[0199]">'Deep weeds of viduity.' ...</seg>
+                        <seg xml:id="krappd1e17318" zone="zone_35" n="MS-HRC-SB-5-4,[0200]"> Also of
+                            an animal, <lb rend="it"/> especially a bird...the vidua or
+                            weaver-bird... <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17320" zone="zone_35" n="MS-HRC-SB-5-4,[0201]">Black
+                            plumage of male...</seg>
+                        <stage> ( <seg xml:id="krappd1e17324" zone="zone_35"
+                                n="MS-HRC-SB-5-4,[0202]" style="nospacebefore">he looks up.</seg>
+                            <seg xml:id="krappd1e17327" zone="zone_35" n="MS-HRC-SB-5-4,[0203]">
+                                With relish <lb rend="it"/>
+                            </seg> ) </stage>
+                        <seg xml:id="krappd1e17331" zone="zone_35" n="MS-HRC-SB-5-4,[0204]"> The
+                            vidua-bird! <lb rend="it"/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                </sp>
+                <stage>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e17340" zone="zone_35"
+                                    n="MS-HRC-SB-5-4,[0205]">Pause.</seg>
+                                <seg xml:id="krappd1e17343" zone="zone_35" n="MS-HRC-SB-5-4,[0206]">
+                                    He closes dictionary, switches <lb rend="it"/> on, resumes
+                                    listening posture </seg> ) <lb rend="it"/>
+                            </stage>
+                        </hi>
+                    </p>
+                </stage>
+                <sp who="#Tape">
+                    <speaker>TAPE:</speaker>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17351" zone="zone_36" corresp="#17r"
+                            n="MS-HRC-SB-5-4,[0207]"> - bench by the weir from where I could see her
+                            win <lb rend="-it"/> dow. </seg>
+                        <seg xml:id="krappd1e17354" zone="zone_36" n="MS-HRC-SB-5-4,[0208]"> There I
+                            sat, in the biting wind, wishing she <lb rend="it"/> were gone. </seg>
+                        <seg xml:id="krappd1e17357" zone="zone_36" n="MS-HRC-SB-5-4,[0209]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17361" zone="zone_36" n="MS-HRC-SB-5-4,[0210]"> Hardly
+                            a soul, just a few <lb rend="it"/> regulars, nursemaids, infants, old
+                            men, dogs, I <lb rend="it"/> got to know them quite well - oh by
+                            appearance of <lb rend="it"/> course I mean! </seg>
+                        <seg xml:id="krappd1e17364" zone="zone_37" corresp="#17r" style="indent90px"
+                            n="MS-HRC-SB-5-4,[0211]"> One dark young beauty I recollect <lb
+                                rend="it"/> particularly, all white and starch, incomparable <lb
+                                rend="it"/> bosom, with a big black hooded perambulator, most <lb
+                                rend="it"/> funereal thing. </seg>
+                        <seg xml:id="krappd1e17367" zone="zone_37" n="MS-HRC-SB-5-4,[0212]">
+                            Whenever I looked in her direction she <lb rend="it"/> had her eyes on
+                            me. </seg>
+                        <seg xml:id="krappd1e17370" zone="zone_37" n="MS-HRC-SB-5-4,[0213]"> And yet
+                            when I was bold enough to <lb rend="it"/> speak to her - not having been
+                            introduced - she threatened <lb rend="it"/> to call a policeman. </seg>
+                        <seg xml:id="krappd1e17373" zone="zone_37" n="MS-HRC-SB-5-4,[0214]"> As if I
+                            had designs on her virtue! <lb rend="it"/>
+                        </seg>
+                        <stage> ( <seg xml:id="krappd1e17378" zone="zone_38" corresp="#17r"
+                                n="MS-HRC-SB-5-4,[0215]">laugh.</seg>
+                            <seg xml:id="krappd1e17381" zone="zone_38" n="MS-HRC-SB-5-4,[0216]"
+                                >Pause</seg> ) </stage>
+                        <seg xml:id="krappd1e17385" zone="zone_38" n="MS-HRC-SB-5-4,[0217]">The face
+                            she had!</seg>
+                        <seg xml:id="krappd1e17388" zone="zone_38" n="MS-HRC-SB-5-4,[0218]">The
+                            eyes!</seg>
+                        <seg xml:id="krappd1e17391" zone="zone_38" n="MS-HRC-SB-5-4,[0219]"> Like
+                                <lb rend="it"/> ... <stage>(hesitates)</stage> ...chrysolite! </seg>
+                        <seg xml:id="krappd1e17397" zone="zone_38" n="MS-HRC-SB-5-4,[0220]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17401" zone="zone_38" n="MS-HRC-SB-5-4,[0221]"> Ah
+                            well... <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17403" zone="zone_38" n="MS-HRC-SB-5-4,[0222]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17407" zone="zone_38" n="MS-HRC-SB-5-4,[0223]"> I was
+                            there when - <stage> (KRAPP switches off, <lb rend="it"/> broods,
+                                switches on again) </stage> - the blind went down, one <lb rend="it"
+                            /> of those dirty brown roller affairs, throwing a ball <lb rend="it"/>
+                            for a little white dog as chance would have it. </seg>
+                        <seg xml:id="krappd1e17413" zone="zone_38" n="MS-HRC-SB-5-4,[0224]"> I <lb
+                                rend="it"/> happened to look up and there it was. </seg>
+                        <seg xml:id="krappd1e17416" zone="zone_38" n="MS-HRC-SB-5-4,[0225]"> All
+                            over and done <lb rend="it"/> with, at last. </seg>
+                        <seg xml:id="krappd1e17419" zone="zone_38" n="MS-HRC-SB-5-4,[0226]"> I sat
+                            on for a few moments with the ball <lb rend="it"/> in my hand and the
+                            dog yelping and pawing at me. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17422" zone="zone_39" corresp="#17r"
+                            n="MS-HRC-SB-5-4,[0227]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17426" zone="zone_39" n="MS-HRC-SB-5-4,[0228]"
+                            >Moments.</seg>
+                        <seg xml:id="krappd1e17429" zone="zone_39" n="MS-HRC-SB-5-4,[0229]"> Her
+                            moments, my moments. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17432" zone="zone_39" n="MS-HRC-SB-5-4,[0230]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17436" zone="zone_39" n="MS-HRC-SB-5-4,[0231]">The
+                            dog's moments.</seg>
+                        <seg xml:id="krappd1e17439" zone="zone_39" n="MS-HRC-SB-5-4,[0232]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17443" zone="zone_39" n="MS-HRC-SB-5-4,[0233]"> In the
+                            end <lb rend="it"/> I held it out to him and he took it in his mouth,
+                            gently, <lb rend="it"/> gently. </seg>
+                        <seg xml:id="krappd1e17446" zone="zone_39" n="MS-HRC-SB-5-4,[0234]"> A
+                            small, old, black, hard, solid rubber ball. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17449" zone="zone_39" n="MS-HRC-SB-5-4,[0235]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17453" zone="zone_39" n="MS-HRC-SB-5-4,[0236]"> I shall
+                            feel it, in my hand, until my dying <lb rend="it"/> day. </seg>
+                        <seg xml:id="krappd1e17456" zone="zone_39" n="MS-HRC-SB-5-4,[0237]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17460" zone="zone_39" n="MS-HRC-SB-5-4,[0238]">I might
+                            have kept it.</seg>
+                        <seg xml:id="krappd1e17463" zone="zone_39" n="MS-HRC-SB-5-4,[0239]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17467" zone="zone_39" n="MS-HRC-SB-5-4,[0240]"> But I
+                                <lb rend="it"/> gave it to the dog. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <stage>
+                        <p corresp="#p1,">
+                            <hi rend="indented2">
+                                <seg xml:id="krappd1e17474" zone="zone_40" corresp="#17r"
+                                    n="MS-HRC-SB-5-4,[0241]">
+                                    <stage>(Pause)</stage>
+                                    <lb rend="it"/>
+                                    <lb rend="it"/>
+                                </seg>
+                            </hi>
+                        </p>
+                    </stage>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17479" zone="zone_40" n="MS-HRC-SB-5-4,[0242]">Ah
+                            well...</seg>
+                    </p>
+                    <pb n="18r"/>
+                    <metamark function="pagenumber">
+                        <add place="margintop" rend="typewriter" hand="#typist" resp="#DVH">
+                            <num>2.7</num>
+                        </add>
+                    </metamark>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e17489" zone="zone_41" corresp="#18r"
+                                n="MS-HRC-SB-5-4,[0243]">
+                                <stage>(Pause)</stage>
+                            </seg>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <note resp="#DVH"> \'TAPE: <lb/> (contd)\' in the left margin </note>
+                        <seg xml:id="krappd1e17498" zone="zone_42" corresp="#18r"
+                            n="MS-HRC-SB-5-4,[0244]"> Spiritually a year of profound gloom and
+                            indigence <lb rend="it"/> until that memorable night in March, at the
+                            end <lb rend="it"/> of the jetty, in the howling wind, never to be for
+                                <lb rend="-it"/> gotten, when suddenly I saw the whole thing. </seg>
+                        <seg xml:id="krappd1e17501" zone="zone_42" n="MS-HRC-SB-5-4,[0245]"> The <lb
+                                rend="it"/> vision at last. </seg>
+                        <seg xml:id="krappd1e17504" zone="zone_43" corresp="#18r" style="indent80px"
+                            n="MS-HRC-SB-5-4,[0246]"> This I fancy is what I have chiefly <lb
+                                rend="it"/> to record this evening, against the day when my <lb
+                                rend="it"/> work will be done and perhaps no place left in my <lb
+                                rend="it"/> memory, warm or cold, for the miracle that... <lb
+                                rend="it"/>
+                            <stage>(hesitates)</stage> ...for the fire that set it alight. </seg>
+                        <seg xml:id="krappd1e17510" zone="zone_43" n="MS-HRC-SB-5-4,[0247]"> What
+                                <lb rend="it"/> I suddenly saw then was this, that the belief I had
+                            been <lb rend="it"/> going on all my life, namely - <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <stage>
+                        <p corresp="#p1,">
+                            <hi rend="indented2">
+                                <seg xml:id="krappd1e17517" zone="zone_44" corresp="#18r"
+                                    n="MS-HRC-SB-5-4,[0248]"> (KRAPP switches off impatiently, winds
+                                        <lb rend="it"/> tape forward, mechanical winding - 2 <lb
+                                        rend="it"/> secs. gabble, switches on again) <lb rend="it"/>
+                                </seg>
+                            </hi>
+                        </p>
+                    </stage>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17521" zone="zone_45" corresp="#18r"
+                            n="MS-HRC-SB-5-4,[0249]"> - great granite rocks the foam flying up in
+                            the light <lb rend="it"/> of the lighthouse and the wind-gauge spinning
+                            like a <lb rend="it"/> propeller, clear to me at last that the dark I
+                            have <lb rend="it"/> always struggled to keep under is in reality my
+                            most - <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <stage>
+                        <p corresp="#p1,">
+                            <hi rend="indented2">
+                                <seg xml:id="krappd1e17529" zone="zone_46" corresp="#18r"
+                                    n="MS-HRC-SB-5-4,[0250]"> (KRAPP curses, switches off, winds <lb
+                                        rend="it"/> tape forward. Mechanical winding - 3 <lb
+                                        rend="it"/> secs. gabble, switches on again) </seg>
+                                <lb rend="it"/>
+                            </hi>
+                        </p>
+                    </stage>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17534" n="MS-HRC-SB-5-4,[0251]" zone="zone_47"
+                            corresp="#18r"> - unshatterable association until my dissolution of <lb
+                                rend="it"/> storm and night with the light of the understanding <lb
+                                rend="it"/> and the fire - <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <stage>
+                        <p corresp="#p1,">
+                            <hi rend="indented2">
+                                <seg xml:id="krappd1e17541" zone="zone_48" corresp="#18r"
+                                    n="MS-HRC-SB-5-4,[0252]"> (KRAPP curses louder, switches off,
+                                        <lb rend="it"/> winds tape forward, mechanical winding - <lb
+                                        rend="it"/> 4 secs. gabble - all other manipulations <lb
+                                        rend="it"/> manual. Switches on again) <lb rend="it"/>
+                                </seg>
+                            </hi>
+                        </p>
+                    </stage>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17546" zone="zone_49" corresp="#18r"
+                            n="MS-HRC-SB-5-4,[0253]">- my face in her breasts and my hand on
+                            her.</seg>
+                        <seg xml:id="krappd1e17549" zone="zone_49" n="MS-HRC-SB-5-4,[0254]"> We <lb
+                                rend="it"/> lay there without moving. </seg>
+                        <seg xml:id="krappd1e17552" zone="zone_49" n="MS-HRC-SB-5-4,[0255]"> But
+                            under us all moved, <lb rend="it"/> and moved us, gently, up and down,
+                            and from side <lb rend="it"/> to side. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e17559" zone="zone_50" corresp="#18r"
+                                n="MS-HRC-SB-5-4,[0256]">
+                                <stage>(Pause)</stage>
+                                <lb rend="it"/>
+                                <lb rend="it"/>
+                            </seg>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17564" zone="zone_50" n="MS-HRC-SB-5-4,[0257]">Past
+                            midnight.</seg>
+                        <seg xml:id="krappd1e17567" zone="zone_50" n="MS-HRC-SB-5-4,[0258]">Never
+                            knew such silence.</seg>
+                        <seg xml:id="krappd1e17570" zone="zone_50" n="MS-HRC-SB-5-4,[0259]"> The
+                            earth <lb rend="it"/> might be uninhabited. <lb rend="it"/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e17576" zone="zone_50" n="MS-HRC-SB-5-4,[0260]">
+                                <stage>(Pause)</stage>
+                                <lb rend="it"/>
+                                <lb rend="it"/>
+                            </seg>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17581" zone="zone_50" n="MS-HRC-SB-5-4,[0261]"> Here I
+                            end - <lb rend="it"/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <pb n="19r"/>
+                    <metamark function="pagenumber">
+                        <add place="margintop" rend="typewriter" hand="#typist" resp="#DVH">
+                            <num>2.8</num>
+                        </add>
+                    </metamark>
+                    <stage>
+                        <p corresp="#p1,">
+                            <hi rend="indented2">
+                                <seg xml:id="krappd1e17592" n="MS-HRC-SB-5-4,[0262]" zone="zone_51"
+                                    corresp="#19r"> (KRAPP switches off, winds tape back, <lb
+                                        rend="it"/> switches on again) <lb rend="it"/>
+                                </seg>
+                            </hi>
+                        </p>
+                    </stage>
+                    <p corresp="#p1,">
+                        <note resp="#DVH"> \'TAPE: <lb/> (contd)\' in the left margin </note>
+                        <seg xml:id="krappd1e17600" zone="zone_52" corresp="#19r"
+                            n="MS-HRC-SB-5-4,[0263]"> - upper lake, with the punt, bathed off the
+                            bank, <lb rend="it"/> then pushed out into the stream and drifted. </seg>
+                        <seg xml:id="krappd1e17603" zone="zone_52" n="MS-HRC-SB-5-4,[0264]"> She lay
+                                <lb rend="it"/> stretched out on the floorboards with her hands
+                            under <lb rend="it"/> her head and her eyes closed. </seg>
+                        <seg xml:id="krappd1e17606" zone="zone_52" n="MS-HRC-SB-5-4,[0265]"> Sun
+                            blazing down, bit of <lb rend="it"/> a breeze, water nice and lively. </seg>
+                        <seg xml:id="krappd1e17609" zone="zone_52" n="MS-HRC-SB-5-4,[0266]"> I
+                            noticed a scratch on <lb rend="it"/> her thigh and asked her how she
+                            came by it. </seg>
+                        <seg xml:id="krappd1e17612" zone="zone_53" corresp="#19r"
+                            style="indent200px" n="MS-HRC-SB-5-4,[0267]"> Picking <lb rend="it"/>
+                            gooseberries, she said. </seg>
+                        <seg xml:id="krappd1e17615" zone="zone_53" n="MS-HRC-SB-5-4,[0268]"> I said
+                            again I thought it was <lb rend="it"/> hopeless and no good going on and
+                            she agreed, without <lb rend="it"/> opening her eyes. </seg>
+                        <seg xml:id="krappd1e17618" zone="zone_53" n="MS-HRC-SB-5-4,[0269]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17622" zone="zone_53" n="MS-HRC-SB-5-4,[0270]"> I asked
+                            her to look at me <lb rend="it"/> and after a few moments -
+                                <stage>(pause)</stage> - after a few <lb rend="it"/> moments she
+                            did, but the eyes just slits, because of the <lb rend="it"/> glare. </seg>
+                        <seg xml:id="krappd1e17628" zone="zone_53" n="MS-HRC-SB-5-4,[0271]"> I bent
+                            over her to get them in the shadow and <lb rend="it"/> they opened. <lb
+                                rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e17637" zone="zone_54" corresp="#19r"
+                                    n="MS-HRC-SB-5-4,[0272]">Pause.</seg>
+                                <seg xml:id="krappd1e17640" zone="zone_54" n="MS-HRC-SB-5-4,[0273]">
+                                    Low <lb rend="it"/>
+                                    <lb rend="it"/>
+                                </seg> ): </stage>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17646" zone="zone_54" n="MS-HRC-SB-5-4,[0274]">Let me
+                            in.</seg>
+                        <seg xml:id="krappd1e17649" zone="zone_54" n="MS-HRC-SB-5-4,[0275]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17653" zone="zone_54" n="MS-HRC-SB-5-4,[0276]"> We
+                            drifted in among the flags <lb rend="it"/> and stuck. </seg>
+                        <seg xml:id="krappd1e17656" zone="zone_54" n="MS-HRC-SB-5-4,[0276|001]">
+                            <stage>(head gradually down)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17660" zone="zone_54" n="MS-HRC-SB-5-4,[0277]"> The way
+                            they went <lb rend="it"/> down, sighing, before the stem! </seg>
+                        <seg xml:id="krappd1e17663" zone="zone_54" n="MS-HRC-SB-5-4,[0278]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17667" zone="zone_54" n="MS-HRC-SB-5-4,[0279]"> I lay
+                            down <lb rend="it"/> across her with my face in her breasts and my hand
+                                <lb rend="it"/> on her. </seg>
+                        <seg xml:id="krappd1e17670" zone="zone_54" n="MS-HRC-SB-5-4,[0280]">We lay
+                            there without moving.</seg>
+                        <seg xml:id="krappd1e17673" zone="zone_54" n="MS-HRC-SB-5-4,[0281]"> But
+                            under us <lb rend="it"/> all moved, and moved us, gently, up and down,
+                            and <lb rend="it"/> from side to side. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e17680" zone="zone_55" corresp="#19r"
+                                n="MS-HRC-SB-5-4,[0282]">
+                                <stage>(Pause)</stage>
+                                <lb rend="it"/>
+                                <lb rend="it"/>
+                            </seg>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17685" zone="zone_55" n="MS-HRC-SB-5-4,[0283]">Past
+                            midnight.</seg>
+                        <seg xml:id="krappd1e17688" zone="zone_55" n="MS-HRC-SB-5-4,[0284]"> Never
+                            knew - <lb rend="it"/>
+                        </seg>
+                    </p>
+                </sp>
+                <stage>
+                    <p corresp="#p1,">
+                        <hi rend="indented2"> ( <seg xml:id="krappd1e17696" zone="zone_56"
+                                corresp="#19r" n="MS-HRC-SB-5-4,[0285]">KRAPP switches off,
+                                broods.</seg>
+                            <seg xml:id="krappd1e17699" zone="zone_56" n="MS-HRC-SB-5-4,[0286]">
+                                Finally <lb rend="it"/> he gets up and goes backstage into dark <lb
+                                    rend="-it"/> ness. </seg>
+                            <seg xml:id="krappd1e17702" zone="zone_56" n="MS-HRC-SB-5-4,[0287]">Ten
+                                seconds.</seg>
+                            <seg xml:id="krappd1e17705" zone="zone_56" n="MS-HRC-SB-5-4,[0288]">
+                                Sound of bottle <lb rend="it"/> against glass, then brief siphon. </seg>
+                            <seg xml:id="krappd1e17708" zone="zone_56" n="MS-HRC-SB-5-4,[0289]"> Ten
+                                    <lb rend="it"/> seconds. </seg>
+                            <seg xml:id="krappd1e17711" zone="zone_56" n="MS-HRC-SB-5-4,[0290]">
+                                Bottle against glass <lb rend="it"/> alone. </seg>
+                            <seg xml:id="krappd1e17714" zone="zone_56" n="MS-HRC-SB-5-4,[0291]">Ten
+                                seconds.</seg>
+                            <seg xml:id="krappd1e17717" zone="zone_57" style="indent100px"
+                                corresp="#19r" n="MS-HRC-SB-5-4,[0292]"> He comes back a <lb
+                                    rend="it"/> little unsteadily into light, carrying mic <lb
+                                    rend="-it"/> rophone, lays it on table, takes reels <lb
+                                    rend="it"/> from tape-recorder, lays them on <lb rend="it"/>
+                                dictionary, takes virgin reels from <lb rend="it"/> drawer, loads
+                                them on tape-recorder, <lb rend="it"/> plugs in mike, sits, takes
+                                envelope from <lb rend="it"/> pocket, consults it, lays it on
+                                dictionary, <lb rend="it"/> adjusts position of mike, concentrates,
+                                    <lb rend="it"/> clears throat, switches on, records <lb
+                                    rend="it"/>
+                            </seg>
+                        </hi> ) </p>
+                </stage>
+                <sp who="#Krapp">
+                    <speaker>KRAPP:</speaker>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17726" zone="zone_58" corresp="#19r"
+                            n="MS-HRC-SB-5-4,[0293]" rend="part1"> Just been listening to that
+                            stupid bastard I took <lb rend="it"/> myself for thirty years ago, hard
+                            to believe I was <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <pb n="20r"/>
+                    <metamark function="pagenumber">
+                        <add place="margintop" rend="typewriter" hand="#typist" resp="#DVH">
+                            <num>2.9</num>
+                        </add>
+                    </metamark>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17726part2" zone="zone_59" corresp="#20r"
+                            n="MS-HRC-SB-5-4,[0293]" rend="part2">
+                            <note resp="#DVH"> \'KRAPP: <lb/> (contd)\' in the left margin </note>
+                            ever as bad as that. </seg>
+                        <seg xml:id="krappd1e17739" zone="zone_59" n="MS-HRC-SB-5-4,[0293|001]">The
+                            voice!</seg>
+                        <seg xml:id="krappd1e17742" zone="zone_59" n="MS-HRC-SB-5-4,[0293|002]"
+                            >Jesus!</seg>
+                        <seg xml:id="krappd1e17745" zone="zone_59" n="MS-HRC-SB-5-4,[0294]"> Thank
+                                <lb rend="it"/> God that's all done with anyway. </seg>
+                        <seg xml:id="krappd1e17748" zone="zone_59" n="MS-HRC-SB-5-4,[0295]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17752" zone="zone_59" n="MS-HRC-SB-5-4,[0296]"> The <lb
+                                rend="it"/> eyes she had! <lb rend="it"/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e17761" zone="zone_59"
+                                    n="MS-HRC-SB-5-4,[0297]"> Broods, realizes he is recording <lb
+                                        rend="it"/> silence, switches off, broods. </seg>
+                                <seg xml:id="krappd1e17764" zone="zone_59" n="MS-HRC-SB-5-4,[0298]"
+                                    >Finally</seg> ) </stage> : <lb rend="it"/>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17770" zone="zone_60" corresp="#20r"
+                            n="MS-HRC-SB-5-4,[0299]">Everything there, everything, all the -</seg>
+                        <seg xml:id="krappd1e17773" zone="zone_60" n="MS-HRC-SB-5-4,[0300]">
+                            <stage> (realizes <lb rend="it"/> this is not being recorded, switches
+                                on) </stage>
+                        </seg>
+                        <seg xml:id="krappd1e17777" zone="zone_60" n="MS-HRC-SB-5-4,[0301]">
+                            Everything <lb rend="it"/> there, everything on this old muckball, all
+                            the light <lb rend="it"/> and dark and famine and feasting of...
+                                <stage>(hesitates)</stage>
+                            <lb rend="it"/> ...the ages! </seg>
+                        <seg xml:id="krappd1e17783" zone="zone_60" n="MS-HRC-SB-5-4,[0302]">
+                            <stage>(in a shout)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17787" zone="zone_60" n="MS-HRC-SB-5-4,[0303]"
+                            >Yes!</seg>
+                        <seg xml:id="krappd1e17790" zone="zone_60" n="MS-HRC-SB-5-4,[0304]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17794" zone="zone_60" n="MS-HRC-SB-5-4,[0305]"> Let <lb
+                                rend="it"/> that go! </seg>
+                        <seg xml:id="krappd1e17797" zone="zone_60" n="MS-HRC-SB-5-4,[0306]"
+                            >Jesus!</seg>
+                        <seg xml:id="krappd1e17800" zone="zone_60" n="MS-HRC-SB-5-4,[0307]"> Take
+                            his mind off his homework! <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17803" zone="zone_60" n="MS-HRC-SB-5-4,[0308]"
+                            >Jesus!</seg>
+                        <stage> ( <seg zone="zone_60" xml:id="krappd1e17808"
+                                n="MS-HRC-SB-5-4,[0309]">pause.</seg>
+                            <seg zone="zone_60" xml:id="krappd1e17811" n="MS-HRC-SB-5-4,[0310]"
+                                >Weary</seg> ) </stage>
+                        <seg xml:id="krappd1e17815" zone="zone_60" n="MS-HRC-SB-5-4,[0311]"> Ah
+                            well, maybe he was <lb rend="it"/> right. </seg>
+                        <seg xml:id="krappd1e17818" zone="zone_60" n="MS-HRC-SB-5-4,[0312]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17822" zone="zone_60" n="MS-HRC-SB-5-4,[0313]"> Maybe
+                            he was right. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <stage>
+                        <p corresp="#p1,">
+                            <hi rend="indented2"> ( <seg xml:id="krappd1e17831" zone="zone_61"
+                                    corresp="#20r" n="MS-HRC-SB-5-4,[0314]">Broods.</seg>
+                                <seg xml:id="krappd1e17834" zone="zone_61" n="MS-HRC-SB-5-4,[0315]"
+                                    >Realizes.</seg>
+                                <seg xml:id="krappd1e17837" zone="zone_61" n="MS-HRC-SB-5-4,[0316]"
+                                    >Switches off.</seg>
+                                <seg xml:id="krappd1e17840" zone="zone_61" n="MS-HRC-SB-5-4,[0317]">
+                                    Con <lb rend="-it"/> sults envelope <lb rend="it"/>
+                                    <lb rend="it"/>
+                                </seg> ) </hi>
+                        </p>
+                    </stage>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17845" zone="zone_61" n="MS-HRC-SB-5-4,[0318]"
+                            >Pah!</seg>
+                        <stage> ( <seg xml:id="krappd1e17848" zone="zone_61"
+                                n="MS-HRC-SB-5-4,[0319]"> crumples it and throws it away <lb
+                                    rend="it"/>
+                                <lb rend="it"/>
+                            </seg> ) </stage>
+                    </p>
+                    <stage>
+                        <p corresp="#p1,">
+                            <hi rend="indented2"> ( <seg xml:id="krappd1e17857" zone="zone_61"
+                                    n="MS-HRC-SB-5-4,[0320]">Broods.</seg>
+                                <seg xml:id="krappd1e17860" zone="zone_61" n="MS-HRC-SB-5-4,[0321]">
+                                    Switches on <lb rend="it"/>
+                                </seg> ) </hi>
+                        </p>
+                    </stage>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e17865" zone="zone_62" corresp="#20r"
+                            n="MS-HRC-SB-5-4,[0322]">Nothing to say, not a squeak.</seg>
+                        <seg xml:id="krappd1e17868" zone="zone_62" n="MS-HRC-SB-5-4,[0323]"> What's
+                            a year now? <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17871" zone="zone_62" n="MS-HRC-SB-5-4,[0324]">The sour
+                            cud and the iron stool.</seg>
+                        <seg xml:id="krappd1e17874" zone="zone_62" n="MS-HRC-SB-5-4,[0325]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17878" zone="zone_62" n="MS-HRC-SB-5-4,[0326]">
+                            Revelled <lb rend="it"/> in the word spool. </seg>
+                        <seg xml:id="krappd1e17881" zone="zone_62" n="MS-HRC-SB-5-4,[0327]">
+                            <stage>(with relish)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17885" zone="zone_62" n="MS-HRC-SB-5-4,[0328]"
+                            >Spooool!</seg>
+                        <seg xml:id="krappd1e17888" zone="zone_62" n="MS-HRC-SB-5-4,[0329]">
+                            Happiest <lb rend="it"/> moment of the past half million. </seg>
+                        <seg xml:id="krappd1e17891" zone="zone_62" n="MS-HRC-SB-5-4,[0330]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17895" zone="zone_62" n="MS-HRC-SB-5-4,[0331]">
+                            Seventeen <lb rend="it"/> copies sold, of which eleven at trade price to
+                            free <lb rend="it"/> circulating libraries beyond the seas. </seg>
+                        <seg xml:id="krappd1e17898" zone="zone_62" n="MS-HRC-SB-5-4,[0332]"> Getting
+                            known. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17901" zone="zone_63" corresp="#20r"
+                            n="MS-HRC-SB-5-4,[0333]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17905" zone="zone_63" n="MS-HRC-SB-5-4,[0334]"> One
+                            pound six and something, eight I have <lb rend="it"/> little doubt. </seg>
+                        <seg xml:id="krappd1e17908" zone="zone_63" n="MS-HRC-SB-5-4,[0335]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17912" zone="zone_63" n="MS-HRC-SB-5-4,[0336]"> Crawled
+                            out once or twice, <lb rend="it"/> before the summer was cold. </seg>
+                        <seg xml:id="krappd1e17915" zone="zone_63" n="MS-HRC-SB-5-4,[0337]"> Sat
+                            shivering in the <lb rend="it"/> park, drowned in dreams and burning to
+                            be gone. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17918" zone="zone_63" n="MS-HRC-SB-5-4,[0338]">Not a
+                            soul.</seg>
+                        <seg xml:id="krappd1e17921" zone="zone_63" n="MS-HRC-SB-5-4,[0339]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17925" zone="zone_63" n="MS-HRC-SB-5-4,[0340]">Last
+                            fancies.</seg>
+                        <seg xml:id="krappd1e17928" zone="zone_63" n="MS-HRC-SB-5-4,[0341]">
+                            <stage>(vehemently)</stage>
+                            <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17932" zone="zone_63" n="MS-HRC-SB-5-4,[0342]">Keep 'em
+                            under!</seg>
+                        <seg xml:id="krappd1e17935" zone="zone_63" n="MS-HRC-SB-5-4,[0343]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17939" zone="zone_63" n="MS-HRC-SB-5-4,[0344]"> Scalded
+                            the eyes out of <lb rend="it"/> me reading <hi rend="u">Effie</hi>
+                            again, a page a day, with tears <lb rend="it"/> again. </seg>
+                        <seg xml:id="krappd1e17945" style="indent60px" zone="zone_64" corresp="#20r"
+                            n="MS-HRC-SB-5-4,[0345]">Effie...</seg>
+                        <seg xml:id="krappd1e17947" zone="zone_64" n="MS-HRC-SB-5-4,[0346]"
+                            style="nospacebefore">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17951" zone="zone_64" n="MS-HRC-SB-5-4,[0347]"> Could
+                            have been happy with <lb rend="it"/> her, up there on the Baltic, and
+                            the pines, and the <lb rend="it"/> dunes. </seg>
+                        <seg xml:id="krappd1e17954" zone="zone_64" n="MS-HRC-SB-5-4,[0348]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17958" zone="zone_64" n="MS-HRC-SB-5-4,[0349]">Could
+                            I?</seg>
+                        <seg xml:id="krappd1e17961" zone="zone_64" n="MS-HRC-SB-5-4,[0350]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17965" zone="zone_64" n="MS-HRC-SB-5-4,[0351]"> And
+                            she? <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e17968" zone="zone_64" n="MS-HRC-SB-5-4,[0352]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17972" zone="zone_64" n="MS-HRC-SB-5-4,[0353]"
+                            >Pah!</seg>
+                        <seg xml:id="krappd1e17975" zone="zone_64" n="MS-HRC-SB-5-4,[0354]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e17979" zone="zone_64" n="MS-HRC-SB-5-4,[0355]"> Fanny
+                            came in a couple of <lb rend="it"/> times. </seg>
+                        <seg xml:id="krappd1e17982" zone="zone_64" n="MS-HRC-SB-5-4,[0356]">Bony old
+                            ghost of a whore.</seg>
+                        <seg xml:id="krappd1e17985" zone="zone_64" n="MS-HRC-SB-5-4,[0357]">
+                            Couldn't do much, <lb rend="it"/> but I suppose better than a kick in
+                            the crutch. </seg>
+                        <seg xml:id="krappd1e17988" zone="zone_65" corresp="#20r"
+                            style="indent200px" n="MS-HRC-SB-5-4,[0358]"> The <lb rend="it"/> last
+                            time wasn't so bad. </seg>
+                        <seg xml:id="krappd1e17991" zone="zone_65" n="MS-HRC-SB-5-4,[0359]"> How do
+                            you manage it, she <lb rend="it"/> said, at your age? </seg>
+                        <seg xml:id="krappd1e17994" zone="zone_65" n="MS-HRC-SB-5-4,[0360]"> I told
+                            her I'd been saving up for <lb rend="it"/> her all my life. </seg>
+                        <seg xml:id="krappd1e17997" zone="zone_65" n="MS-HRC-SB-5-4,[0361]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18001" zone="zone_65" n="MS-HRC-SB-5-4,[0362]"> Went to
+                            Vespers once, like <lb rend="it"/> when I was in short trousers. <lb
+                                rend="it"/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <stage> ( <seg xml:id="krappd1e18009" zone="zone_65"
+                                    n="MS-HRC-SB-5-4,[0363]">Pause.</seg>
+                                <seg xml:id="krappd1e18012" zone="zone_65" n="MS-HRC-SB-5-4,[0364]"
+                                    >Sings</seg> ) </stage> : <lb rend="it"/>
+                        </hi>
+                    </p>
+                    <pb n="21r"/>
+                    <metamark function="pagenumber">
+                        <add place="margintop" rend="typewriter" hand="#typist" resp="#DVH">
+                            <num>2.10</num>
+                        </add>
+                    </metamark>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e18019" zone="zone_66" corresp="#21r"
+                            n="MS-HRC-SB-5-4,[0365]">
+                            <note resp="#DVH"> \'KRAPP: <lb/> (contd)\' in the left margin </note>
+                            Now the day is over, <lb/> Night is drawing nigh-igh, <lb/> Shadows -
+                                <stage>(coughing, then almost inaudible)</stage> - <lb rend="it"/>
+                            of the evening <lb/> Steal across the sky. <lb/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e18041" zone="zone_67" corresp="#21r"
+                            n="MS-HRC-SB-5-4,[0366]">
+                            <stage>(gasping)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18045" zone="zone_67" n="MS-HRC-SB-5-4,[0367]">Went to
+                            sleep and fell off the pew.</seg>
+                        <seg xml:id="krappd1e18048" zone="zone_67" n="MS-HRC-SB-5-4,[0368]">
+                            <stage>(pause)</stage>
+                            <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e18052" zone="zone_67" n="MS-HRC-SB-5-4,[0369]">
+                            Sometimes wondered in the night if a last effort <lb rend="it"/>
+                            mightn't - </seg>
+                        <seg xml:id="krappd1e18055" zone="zone_67" n="MS-HRC-SB-5-4,[0370]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18059" zone="zone_67" n="MS-HRC-SB-5-4,[0371]"> Ah
+                            finish your booze now and <lb rend="it"/> get to your bed. </seg>
+                        <seg xml:id="krappd1e18062" zone="zone_67" n="MS-HRC-SB-5-4,[0372]"> Go on
+                            with this drivel in the morn <lb rend="-it"/> ing. </seg>
+                        <seg xml:id="krappd1e18065" zone="zone_67" n="MS-HRC-SB-5-4,[0373]">Or leave
+                            it at that.</seg>
+                        <seg xml:id="krappd1e18068" zone="zone_67" n="MS-HRC-SB-5-4,[0374]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18072" zone="zone_67" n="MS-HRC-SB-5-4,[0375]"> Leave
+                            it at that. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e18075" zone="zone_67" n="MS-HRC-SB-5-4,[0376]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18079" zone="zone_67" n="MS-HRC-SB-5-4,[0377]"> Lie
+                            propped up in the dark - and wander. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e18082" zone="zone_68" corresp="#21r"
+                            n="MS-HRC-SB-5-4,[0378]"> Be again in the dingle on a Christmas Eve,
+                            gathering <lb rend="it"/> holly, the red-berried. </seg>
+                        <seg xml:id="krappd1e18085" zone="zone_68" n="MS-HRC-SB-5-4,[0379]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18089" zone="zone_68" n="MS-HRC-SB-5-4,[0380]"> Be
+                            again on Croghan <lb rend="it"/> on a Sunday morning, in the haze, with
+                            the bitch, stop <lb rend="it"/> and listen to the bells. </seg>
+                        <seg xml:id="krappd1e18092" zone="zone_68" n="MS-HRC-SB-5-4,[0381]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18096" zone="zone_68" n="MS-HRC-SB-5-4,[0382]">And so
+                            on.</seg>
+                        <seg xml:id="krappd1e18099" zone="zone_68" n="MS-HRC-SB-5-4,[0383]">
+                            <stage>(pause)</stage>
+                            <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e18103" zone="zone_68" n="MS-HRC-SB-5-4,[0384]">Be
+                            again, be again.</seg>
+                        <seg xml:id="krappd1e18106" zone="zone_68" n="MS-HRC-SB-5-4,[0385]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18110" zone="zone_68" n="MS-HRC-SB-5-4,[0386]"> All
+                            that old misery. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e18113" zone="zone_68" n="MS-HRC-SB-5-4,[0387]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18117" zone="zone_68" n="MS-HRC-SB-5-4,[0388]">Once
+                            wasn't enough for you.</seg>
+                        <seg xml:id="krappd1e18120" zone="zone_68" n="MS-HRC-SB-5-4,[0389]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18124" zone="zone_68" n="MS-HRC-SB-5-4,[0390]"> Lie <lb
+                                rend="it"/> down across her. </seg>
+                    </p>
+                </sp>
+                <stage>
+                    <p corresp="#p1,">
+                        <hi rend="indented2"> ( <seg xml:id="krappd1e18133" zone="zone_69"
+                                corresp="#21r" n="MS-HRC-SB-5-4,[0391]">Long pause.</seg>
+                            <seg xml:id="krappd1e18136" zone="zone_69" n="MS-HRC-SB-5-4,[0392]"> He
+                                suddenly bends over <lb rend="it"/> machine, switches off, wrenches
+                                off <lb rend="it"/> tape, throws it away, puts on the other, <lb
+                                    rend="it"/> winds it back to the passage he wants, <lb rend="it"
+                                /> switches on, listens staring front. <lb rend="it"/>
+                                <lb rend="it"/>
+                            </seg>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e18143" zone="zone_69" n="MS-HRC-SB-5-4,[0392|001]">
+                                (Action interrupted by second look into <lb rend="it"/> darkness
+                                backstage) ) </seg>
+                            <lb rend="it"/>
+                        </hi>
+                    </p>
+                </stage>
+                <sp who="#Tape">
+                    <speaker>TAPE:</speaker>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e18151" zone="zone_70" corresp="#21r"
+                            n="MS-HRC-SB-5-4,[0393]">- gooseberries, she said.</seg>
+                        <seg xml:id="krappd1e18154" zone="zone_70" n="MS-HRC-SB-5-4,[0394]"> I said
+                            again I thought it <lb rend="it"/> was hopeless and no good going on and
+                            she agreed, <lb rend="it"/> without opening her eyes. </seg>
+                        <seg xml:id="krappd1e18157" zone="zone_70" n="MS-HRC-SB-5-4,[0395]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18161" zone="zone_70" n="MS-HRC-SB-5-4,[0396]"> I asked
+                            her to <lb rend="it"/> look at me and after a few moments -
+                                <stage>(pause)</stage> - <lb rend="it"/> after a few moments she
+                            did, but the eyes just slits, <lb rend="it"/> because of the glare. </seg>
+                        <seg xml:id="krappd1e18167" zone="zone_70" n="MS-HRC-SB-5-4,[0397]"> I bent
+                            over her to get them in <lb rend="it"/> the shadow and they opened. </seg>
+                        <stage> ( <seg xml:id="krappd1e18172" zone="zone_70"
+                                n="MS-HRC-SB-5-4,[0398]">pause.</seg>
+                            <seg xml:id="krappd1e18175" zone="zone_70" n="MS-HRC-SB-5-4,[0399]"
+                                >Low</seg> ) </stage>
+                        <seg xml:id="krappd1e18179" zone="zone_70" n="MS-HRC-SB-5-4,[0400]"> Let me
+                                <lb rend="it"/> in. </seg>
+                        <seg xml:id="krappd1e18182" zone="zone_70" n="MS-HRC-SB-5-4,[0401]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18186" zone="zone_70" n="MS-HRC-SB-5-4,[0402]"> We
+                            drifted in among the flags and stuck. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e18189" zone="zone_71" corresp="#21r"
+                            n="MS-HRC-SB-5-4,[0403]"> The way they went down, sighing, before the
+                            stem! <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e18192" zone="zone_71" n="MS-HRC-SB-5-4,[0404]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18196" zone="zone_71" n="MS-HRC-SB-5-4,[0405]"> I lay
+                            down across her with my face in her <lb rend="it"/> breasts and my hand
+                            on her. </seg>
+                        <seg xml:id="krappd1e18199" zone="zone_71" n="MS-HRC-SB-5-4,[0406]"> We lay
+                            there without <lb rend="it"/> moving. </seg>
+                        <seg xml:id="krappd1e18202" zone="zone_71" n="MS-HRC-SB-5-4,[0407]"> But
+                            under us all moved, and moved us, <lb rend="it"/> gently, up and down,
+                            and from side to side. <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <stage>
+                        <p corresp="#p1,">
+                            <hi rend="indented2"> ( <seg xml:id="krappd1e18211" zone="zone_72"
+                                    corresp="#21r" n="MS-HRC-SB-5-4,[0408]">Pause.</seg>
+                                <seg xml:id="krappd1e18214" zone="zone_72" n="MS-HRC-SB-5-4,[0409]"
+                                    >KRAPP's lips move.</seg>
+                                <seg xml:id="krappd1e18217" zone="zone_72" n="MS-HRC-SB-5-4,[0410]">
+                                    No sound <lb rend="it"/>
+                                    <lb rend="it"/>
+                                </seg> ) </hi>
+                        </p>
+                    </stage>
+                    <p corresp="#p1,">
+                        <seg xml:id="krappd1e18222" zone="zone_72" n="MS-HRC-SB-5-4,[0411]">Past
+                            midnight.</seg>
+                        <seg xml:id="krappd1e18225" zone="zone_72" n="MS-HRC-SB-5-4,[0412]">Never
+                            knew such silence.</seg>
+                        <seg xml:id="krappd1e18228" zone="zone_72" n="MS-HRC-SB-5-4,[0413]"> The
+                            earth <lb rend="it"/> might be uninhabited. <lb rend="it"/>
+                            <lb rend="it"/>
+                        </seg>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e18234" zone="zone_72" n="MS-HRC-SB-5-4,[0414]">
+                                <stage>(Pause)</stage>
+                                <lb rend="it"/>
+                            </seg>
+                        </hi>
+                    </p>
+                    <pb n="22r"/>
+                    <metamark function="pagenumber">
+                        <add place="margintop" rend="typewriter" hand="#typist" resp="#DVH">
+                            <num>2.11</num>
+                        </add>
+                    </metamark>
+                    <p corresp="#p1,">
+                        <note resp="#DVH"> \'TAPE: <lb/> (contd)\' in the left margin </note>
+                        <seg xml:id="krappd1e18247" zone="zone_73" corresp="#22r"
+                            n="MS-HRC-SB-5-4,[0415]">Here I end this reel.</seg>
+                        <seg xml:id="krappd1e18250" zone="zone_73" n="MS-HRC-SB-5-4,[0416]"> Box -
+                                <stage>(pause)</stage> - three, spool - <lb rend="it"/>
+                            <stage>(pause)</stage> - five. </seg>
+                        <seg xml:id="krappd1e18259" zone="zone_73" n="MS-HRC-SB-5-4,[0417]">
+                            <stage>(pause)</stage>
+                        </seg>
+                        <seg xml:id="krappd1e18264" zone="zone_73" n="MS-HRC-SB-5-4,[0418]"> Perhaps
+                            my best years are <lb rend="it"/> gone. </seg>
+                        <seg xml:id="krappd1e18267" zone="zone_73" n="MS-HRC-SB-5-4,[0419]">When
+                            there was a chance of happiness.</seg>
+                        <seg xml:id="krappd1e18270" zone="zone_73" n="MS-HRC-SB-5-4,[0420]"> But I
+                                <lb rend="it"/> wouldn't want them back. </seg>
+                        <seg xml:id="krappd1e18273" zone="zone_73" n="MS-HRC-SB-5-4,[0421]"> Not
+                            with the fire in me now. <lb rend="it"/>
+                        </seg>
+                        <seg xml:id="krappd1e18276" zone="zone_73" n="MS-HRC-SB-5-4,[0422]"> No, I
+                            wouldn't want them back. <lb rend="it"/>
+                        </seg>
+                    </p>
+                </sp>
+                <stage>
+                    <p corresp="#p1,">
+                        <hi rend="indented2"> ( <seg xml:id="krappd1e18284" zone="zone_74"
+                                corresp="#22r" n="MS-HRC-SB-5-4,[0423]"> KRAPP motionless staring
+                                before him. <lb rend="it"/>
+                            </seg>
+                            <seg xml:id="krappd1e18287" zone="zone_74" n="MS-HRC-SB-5-4,[0424]"> The
+                                tape runs on in silence. <lb rend="it"/>
+                                <lb rend="it"/>
+                            </seg>
+                        </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e18293" zone="zone_74" n="MS-HRC-SB-5-4,[0424|001]">
+                                FADE OUT STAGE and den till only <lb rend="it"/> light "eye" of
+                                tape-recorder <lb rend="it"/>
+                                <lb rend="it"/>
+                            </seg> ) </hi>
+                    </p>
+                    <p corresp="#p1,">
+                        <hi rend="indented2">
+                            <seg xml:id="krappd1e18300" zone="zone_74" n="MS-HRC-SB-5-4,[0425]">
+                                <hi rend="u">CURTAIN</hi>
+                                <lb rend="it"/>
+                            </seg>
+                        </hi>
+                    </p>
+                </stage>
+                <pb n="23r"/>
+                <p corresp="#p1,">
+                    <seg type="paralipomena" xml:id="kldiuvuue" zone="zone_75" corresp="#23r">
+                        <hi rend="u">TAPE</hi>
+                        <lb/>
+                        <lb/> (a) "Thirty-nine ( )...apart from" ( ) <lb/>
+                        <lb/> (b) "My old weakness ( )...where mother lay" ( ) <lb/>
+                        <lb/> (c) "A-dying ( )...and the - " ( ) <lb/>
+                        <lb/> (d) "Bench ( )...and the fire" ( ) </seg>
+                    <lb/>
+                    <lb/>
+                    <seg type="paralipomena" xml:id="klcdnnvduue" zone="zone_76" corresp="#23r"> (e)
+                        "Upper lake ( )...picking - " ( ) <lb/>
+                        <lb/> (f) "Gooseberries ( )...across her with - " ( ) <lb/>
+                        <lb/> (g) "My face ( )...never knew - " ( ) <lb/>
+                        <lb/> (h) "Such silence ( )...here I end - " ( ) <lb/>
+                        <lb/> (i) "This reel ( )...want them back" ( ) </seg>
+                </p>
+                <note resp="#DVH">page-wide dividing line</note>
+                <p corresp="#p1,">
+                    <seg type="paralipomena" xml:id="klcdooivduue" zone="zone_77" corresp="#23r">
+                        <hi rend="u">MONTAGE</hi>
+                    </seg>
+                    <seg type="paralipomena" xml:id="nncdjnd" zone="zone_77">
+                        <table>
+                            <row role="data">
+                                <cell role="data" cols="1" rows="1">1 copy of (a)</cell>
+                                <cell role="data" cols="1" rows="1">( (a)</cell>
+                            </row>
+                            <row role="data">
+                                <cell role="data" cols="1" rows="1"/>
+                                <cell role="data" cols="1" rows="1"> ( (a) (b) (c)
+                                        <metamark>→</metamark> including drink one if recorded
+                                </cell>
+                            </row>
+                            <row role="data">
+                                <cell role="data" cols="1" rows="1">1 copy of (c)</cell>
+                                <cell role="data" cols="1" rows="1">( (c)</cell>
+                            </row>
+                            <row role="data">
+                                <cell role="data" cols="1" rows="1"/>
+                                <cell role="data" cols="1" rows="1"> ( (d) <metamark>→</metamark>
+                                    including three taped "gabbles" </cell>
+                            </row>
+                            <row role="data">
+                                <cell role="data" cols="1" rows="1">1 copy of (h)</cell>
+                                <cell role="data" cols="1" rows="1">
+                                    <metamark>←</metamark> ( (g) (h) </cell>
+                            </row>
+                            <row role="data">
+                                <cell role="data" cols="1" rows="1"/>
+                                <cell role="data" cols="1" rows="1"> ( (e) (f) (g)
+                                        <metamark>→</metamark> plus drink two if recorded </cell>
+                            </row>
+                            <row role="data">
+                                <cell role="data" cols="1" rows="1">1 copy of (f)(g)</cell>
+                                <cell role="data" cols="1" rows="1">( (f) (g) (h) (i)</cell>
+                            </row>
+                        </table>
+                    </seg>
+                </p>
+                <note resp="#DVH">page-wide dividing line</note>
+                <p corresp="#p1,">
+                    <seg type="paralipomena" xml:id="lkjdvnndj" zone="zone_80" corresp="#23r">
+                        <hi rend="u">N.B.</hi> First interruption of listening a little later than
+                        text, i.e. <lb rend="it"/> after "apart from" instead of "sound as a - " (
+                            <hi rend="indented">)</hi>
+                    </seg>
+                </p>
+                <note resp="#DVH">page-wide dividing line</note>
+            </div>
+        </body>
+    </text>
+</TEI>
