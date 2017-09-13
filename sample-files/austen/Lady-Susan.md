@@ -164,7 +164,7 @@ Matrix 1 demonstrates that "containment" is a characteristic of nearly all eleme
 So we can say that: 
 
 	text -> page+ -> p+ -> line+ -> character+
-	text -> letter -> title* -> salute -> content -> p+ -> sentence+ -> w* -> character+
+	text -> letter -> title? -> salute -> content -> p+ -> sentence+ -> w* -> character+
 	
 ## 
 
