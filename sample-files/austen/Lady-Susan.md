@@ -145,7 +145,7 @@ Matrix 1 demonstrates that "containment" is a characteristic of nearly all eleme
 	# a pagenumber is a self-contained structure with a rend annotation 
 	# that indicates the topographical location of the pagenumber
 	
-	# a letter starts with a title, follwed by a salute, and a content
+	# a letter starts with a title, followed by a salute, and a content
 
 	# a title is a self-contained structure that may contain several lines 
 	
@@ -163,8 +163,8 @@ Matrix 1 demonstrates that "containment" is a characteristic of nearly all eleme
 
 So we can say that: 
 
-	text -> page -> p -> line -> character
-	text -> letter -> title* -> salute -> content -> p -> sentence -> w* -> characters
+	text -> page+ -> p+ -> line+ -> character+
+	text -> letter -> title* -> salute -> content -> p+ -> sentence+ -> w* -> characters+
 	
 ## 
 
