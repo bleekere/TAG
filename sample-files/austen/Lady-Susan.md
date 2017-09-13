@@ -153,13 +153,17 @@ Matrix 1 demonstrates that "containment" is a characteristic of nearly all eleme
 
 	# a paragraph contains a sequence of lines as well as a sequence of sentences
 	
-	# a line contains some text
+	# a line contains some alphanumeric characters
 	
-	# a sentence contains some text
+	# a sentence contains alphanumeric characters and may contain words (w)
 	
+	# a w contains a hyphen
 
+So we can say that: 
 
-
+	text > page > lines > characters
+	text > letter > title > salute > content > sentence > w
+	
 
 ## Attempt to divide the tags by hierarchy
 **[NOTE]** *This gave no satisfying result, so we decided to approach it "bottom-up": that is, starting from the tags and exploring their relationships, instead of sorting them by hierarchy.*
