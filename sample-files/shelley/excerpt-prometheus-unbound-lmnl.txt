@@ -1,0 +1,45 @@
+[text} 
+[page}
+[pageNum}18v{]
+[head}Act 1{head]
+[p}
+[line}[stage}Scene - [add [rend}above{]}Night{add] A Ravine of Icy Rocks in the {line]
+[line}Indian Caucasus. Prometheus is discovered {line]
+[line}bound to the precipice - Panthea & Ione {line]
+[line}are seated at its feet.{stage]{line]
+{p]
+[p}
+[sp}
+[line [rend}center{]}[speaker}Prometheus{speaker]{line]
+{p]
+[p}
+[line}[lg [type}stanza{]}
+[l}Monarch of Gods & [del [rend}strike{]}d{del][add [rend}inline{]}D{add]aemons & [rend}cross{]}s{del][add [rend}inline{]}S{add]pirits {l]{line]
+[line}[l}But One, who throng those bright & rolling Worlds {l]{line]
+[line}[l}Which Thou & I alone of living things [add [rend}below{]}Behold with sleepless eyes{add] regard [add [place}below{]}this Earth{add] {l]{line]
+[line}[l}Made multitudinous with thy slaves, whom thou {l]{line]
+[line}[l}Requitest for knee-worship, prayer & praise {l]{line]
+[line}[l}And toil, & hecatombs of broken hearts, {l]{line]
+[line}[l}With fear & self contempt & barren hope; {l]{line]
+[line}[l}Whilst me, whom am thy foe, eyeless in hate, {l]{line]
+[line}[l}Hast thou made reign & triumph, to thy scorn, {l]{line]
+[line}[l}Oer mine own misery & thy vain revenge....{l]{line]
+[line}[l}Three thousand years of sleep-unsheltered hours{l]{line]
+[line}[l}And moments, aye divided by keen pangs {l]{line]
+[line}[l}Till they seem years, torture & solitude {l]{line]
+[line}[l}Scorn & despair - - - [del [rend}strike{]}more glorious than thy throne{del]{line]
+{page]
+
+[page}
+[pageNum}19r{]
+[line}[del [rend}strike{]}respecting{del][add rend}below{]}with regard to{add] Hesiod & Archilochus. {l]
+{lg]
+{sp]
+[sp}[speaker} [rend}underline{]}Ion.{speaker][lg}[l} I [del [rend}strike{]}have{del][add [rend}above{]}posess{add]{line]
+
+[line}this high degree of skill respecting Homer alone; {l]{line]
+[line} [l}and I consider that sufficient.-{l]{lg]{sp] [sp} [speaker [rend}underline{]}Soc.{speaker] [lg [type}stanza{]}[l}[del [rend}strike{]}But{line]
+[line}Ion{del][add [rend}above{]}there{add] are [del [rend}strike{]}subjects{del] any topics concern[expand}in{]g which {line]
+[line}[l}
+
+{p]
