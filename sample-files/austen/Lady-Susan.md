@@ -30,7 +30,9 @@
 - hyphenation in insertions, to make sure that they correspond with the linebreaks in the original/deleted part (in XML with milestones)
 
 
-### Declaration of tags (based on KLT excerpt)
+### Declaration of tags 
+
+**NOTE: these tags are based on the encoding of the excerpt from *Lady Susan***
 
 **page**  
 Description: editorial page numbering, which may differ from authorial page numbering
@@ -161,9 +163,10 @@ Matrix 1 demonstrates that "containment" is a characteristic of nearly all eleme
 
 So we can say that: 
 
-	text > page > p > lines > characters
-	text > letter > title - salute - content > p > sentence > w
+	text -> page -> p -> line -> character
+	text -> letter -> title* -> salute -> content -> p -> sentence -> w* -> characters
 	
+## 
 
 ## Attempt to divide the tags by hierarchy
 **[NOTE]** *This gave no satisfying result, so we decided to approach it "bottom-up": that is, starting from the tags and exploring their relationships, instead of sorting them by hierarchy.*
