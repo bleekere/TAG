@@ -14,6 +14,7 @@
 [l}sliderule and [w}num[rhyme [label}a{]}ber{rhyme]{w]{l]
 [l}machine on a [w}[rhyme [label}b{]}desk{rhyme]{w]{l]
 {lg]
+{stanza]
 {poem]
 {text]
 
@@ -63,7 +64,7 @@ Grammar: text -> page+ -> div+ -> line+ -> w* -> #PCDATA
 [s}
 [cl}Now that 
     [phr [type}VP{]}[w [type}S{]}I{w][w [type}AV{]}[m [type}contr{]}[pc}'{]ve{m]{w] [w [type}V{]}[m [type}root{]}wast{m][m [type}suffix{]}ed{m]{w]{phr] 
-    [phr [type}NP{}[w [type}A{]}five{w] [w [type}N{]}years{w]{phr] 
+    [phr [type}NP{]}[w [type}A{]}five{w] [w [type}N{]}years{w]{phr] 
     [phr [type}PP{]}[w [type}P{]}in{w] [w [type}N{]}Manhattan{w]{phr]
 {cl]
 [cl}
