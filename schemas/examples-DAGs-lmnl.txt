@@ -20,7 +20,10 @@
 NOTE: created a fake rhyme scheme
 
 Grammar:
-text -> poem+ -> stanza+ -> lg+ -> l+ -> w+ -> rhyme* -> label* -> #PCDATA
+text -> poem+ -> stanza+ -> lg+ -> l+ -> w+ -> rhyme+ -> label -> #PCDATA
+
+# a word (w) contains one or more rhymes
+# a rhyme has a compulsory label annotation  
 
 -------
 
@@ -68,4 +71,8 @@ P = Preposition
 V = Verb
 contr = contraction
 
-Grammar : text -> s+ -> cl+ -> phr+ -> w+ -> m* -> c* -> pc* -> #PCDATA 
+Grammar : text -> s+ -> cl+ -> phr+ -> w+ -> m? -> c? -> pc? -> #PCDATA
+
+# a phrase (phr) has a compulsory type annotation, and contains several words (w) 
+# a word (w) has a compusory type annotation, and may contain several morphemes (m)
+# a morpheme (m) has a compulsory type annotation, and may contain several characters (c) and punctuation characters (pc), which in turn have optional type annotation
