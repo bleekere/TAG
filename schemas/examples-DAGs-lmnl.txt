@@ -19,11 +19,17 @@
 
 NOTE: created a fake rhyme scheme
 
+# a text is a sequence of poems
+# a poem starts with a title and contains a body of one or more stanzas
+# a stanza contains one or more line groups (lg)
+# a line group contains one or more lines (l)
+# a line contains zero or more words (w)
+# a word (w) contains one or more rhymes
+# a rhyme has a compulsory label annotation  
+
 Grammar:
 text -> poem+ -> stanza+ -> lg+ -> l+ -> w+ -> rhyme+ -> label -> #PCDATA
 
-# a word (w) contains one or more rhymes
-# a rhyme has a compulsory label annotation  
 
 -------
 
@@ -45,16 +51,32 @@ text -> poem+ -> stanza+ -> lg+ -> l+ -> w+ -> rhyme+ -> label -> #PCDATA
 NOTE: created some fake line breaks
 NOTE: it's possible here to use the {w} tag with an annotation of an xml:id to link a facsimile to a word in the text  
 
+# a page contains one or more divs
+# a div has a compulsory type annotation, and contains one or more lines
+# a line may contain zero or more words (w)
+
 Grammar: text -> page+ -> div+ -> line+ -> w* -> #PCDATA
 
 ------
 
 [text}
 [s}
-[cl}Now that [phr [type}VP{]}[w [type}S{]}I{w][w [type}AV{]}[m [type}contr{]}[pc}'{]ve{m]{w] [w [type}V{]}[m [type}root{]}wast{m][m [type}suffix{]}ed{m]{w]{phr] [phr [type}NP{}[w [type}A{]}five{w] [w [type}N{]}years{w]{phr] [phr [type}PP{]}[w [type}P{]}in{w] [w [type}N{]}Manhattan{w]{phr]{cl]
-[cl}[phr [type}VP{]}[w [type}N{]}life{w] [w [type}V{]}[m [type}root{]}decay{m][m [type}suffix{]}ing{m]{w]{phr] [phr [type}NP{]}[w [type}N{]}talent{w] [w [type}D{]}a{w] [w [type}N{]}blank{w]{phr]{cl]
-[cl}[phr [type}VP{]}[w [type}V{]}talking{w] [w [type}Adv{]}disconnected{w] [w [type}Adv{]patient{w] [w [type}C{]}and{w] [w [type}Adv{]}mental{w]{phr}{cl]  
-[cl}[phr=1 [type}NP{]}[w [type}N{]}sliderule{w] [w [type}C{]}and{w] [phr=2 [type}N{]}[w [type}N{]}number{w] [w [type}N{]}machine{w]{phr=2]{phr=1] [phr [type}PP{]}[w [type}P{]}on{w] [w [type}D{]}a{w] [w [type}N{]}desk{w]{phr]{cl]
+[cl}Now that 
+    [phr [type}VP{]}[w [type}S{]}I{w][w [type}AV{]}[m [type}contr{]}[pc}'{]ve{m]{w] [w [type}V{]}[m [type}root{]}wast{m][m [type}suffix{]}ed{m]{w]{phr] 
+    [phr [type}NP{}[w [type}A{]}five{w] [w [type}N{]}years{w]{phr] 
+    [phr [type}PP{]}[w [type}P{]}in{w] [w [type}N{]}Manhattan{w]{phr]
+{cl]
+[cl}
+    [phr [type}VP{]}[w [type}N{]}life{w] [w [type}V{]}[m [type}root{]}decay{m][m [type}suffix{]}ing{m]{w]{phr] 
+    [phr [type}NP{]}[w [type}N{]}talent{w] [w [type}D{]}a{w] [w [type}N{]}blank{w]{phr]
+{cl]
+[cl}
+    [phr [type}VP{]}[w [type}V{]}talking{w] [w [type}Adv{]}disconnected{w] [w [type}Adv{]patient{w] [w [type}C{]}and{w] [w [type}Adv{]}mental{w]{phr}
+{cl]  
+[cl}
+    [phr=1 [type}NP{]}[w [type}N{]}sliderule{w] [w [type}C{]}and{w] [phr=2 [type}N{]}[w [type}N{]}number{w] [w [type}N{]}machine{w]{phr=2]{phr=1] 
+    [phr [type}PP{]}[w [type}P{]}on{w] [w [type}D{]}a{w] [w [type}N{]}desk{w]{phr]
+{cl]
 {s]
 {text]
 
@@ -71,8 +93,9 @@ P = Preposition
 V = Verb
 contr = contraction
 
-Grammar : text -> s+ -> cl+ -> phr+ -> w+ -> m? -> c? -> pc? -> #PCDATA
-
 # a phrase (phr) has a compulsory type annotation, and contains several words (w) 
 # a word (w) has a compusory type annotation, and may contain several morphemes (m)
 # a morpheme (m) has a compulsory type annotation, and may contain several characters (c) and punctuation characters (pc), which in turn have optional type annotation
+
+Grammar : text -> s+ -> cl+ -> phr+ -> w+ -> m? -> c? -> pc? -> #PCDATA
+
