@@ -1,0 +1,71 @@
+[text}
+[poem}
+[title}My Alba{title]
+[stanza [type}octave{] [rhyme}abab{]}
+[lg}
+[l}Now that I've [w}was[rhyme [label}a{]}ted{rhyme]{w]{l]
+[l}five years in [w}Manhat[rhyme [label}b{]}tan{rhyme]{w]{l]
+[l}life [w}deca[rhyme [label}a{]}ying{rhyme]{w]{l]
+[l}talent a [w}[rhyme [label}b{]}blank{rhyme]{w]{l]
+{lg]
+[lg}
+[l}talking [w}disconnec[rhyme [label}a{]}ted{rhyme]{w]{l]
+[l}patient and [w}men[rhyme [label}b{]}tal{rhyme]{w]{l]
+[l}sliderule and [w}num[rhyme [label}a{]}ber{rhyme]{w]{l]
+[l}machine on a [w}[rhyme [label}b{]}desk{rhyme]{w]{l]
+{lg]
+{poem]
+{text]
+
+NOTE: created a fake rhyme scheme
+
+Grammar:
+text -> poem+ -> stanza+ -> lg+ -> l+ -> w+ -> rhyme* -> label* -> #PCDATA
+
+-------
+
+[text}
+[page}1{}
+[div [type}title{]}My Alba{div]
+[div [type}body{]}
+[line}Now that I've wasted five years in{line]
+[line}Manhattan{line]
+[line}life decaying talent a {line]
+[line}blank {line]
+[line}talking disconnected patient {line]
+[line}and mental {line]
+[line}sliderule and number machine on a desk{line]
+{div]
+{page]
+{text]
+
+NOTE: created some fake line breaks
+NOTE: it's possible here to use the {w} tag with an annotation of an xml:id to link a facsimile to a word in the text  
+
+Grammar: text -> page+ -> div+ -> line+ -> w* -> #PCDATA
+
+------
+
+[text}
+[s}
+[cl}Now that [phr [type}VP{]}[w [type}S{]}I{w][w [type}AV{]}[m [type}contr{]}[pc}'{]ve{m]{w] [w [type}V{]}[m [type}root{]}wast{m][m [type}suffix{]}ed{m]{w]{phr] [phr [type}NP{}[w [type}A{]}five{w] [w [type}N{]}years{w]{phr] [phr [type}PP{]}[w [type}P{]}in{w] [w [type}N{]}Manhattan{w]{phr]{cl]
+[cl}[phr [type}VP{]}[w [type}N{]}life{w] [w [type}V{]}[m [type}root{]}decay{m][m [type}suffix{]}ing{m]{w]{phr] [phr [type}NP{]}[w [type}N{]}talent{w] [w [type}D{]}a{w] [w [type}N{]}blank{w]{phr]{cl]
+[cl}[phr [type}VP{]}[w [type}V{]}talking{w] [w [type}Adv{]}disconnected{w] [w [type}Adv{]patient{w] [w [type}C{]}and{w] [w [type}Adv{]}mental{w]{phr}{cl]  
+[cl}[phr=1 [type}NP{]}[w [type}N{]}sliderule{w] [w [type}C{]}and{w] [phr=2 [type}N{]}[w [type}N{]}number{w] [w [type}N{]}machine{w]{phr=2]{phr=1] [phr [type}PP{]}[w [type}P{]}on{w] [w [type}D{]}a{w] [w [type}N{]}desk{w]{phr]{cl]
+{s]
+{text]
+
+NP = Noun Phrase
+PP = Prepositional Phrase
+VP = Verbal Phrase
+A = Adjective
+Adv = Adverb
+AV = Auxiliary Verb
+C = Conjunction
+D = Determiner
+N = Noun
+P = Preposition
+V = Verb
+contr = contraction
+
+Grammar : text -> s+ -> cl+ -> phr+ -> w+ -> m* -> c* -> pc* -> #PCDATA 
