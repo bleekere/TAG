@@ -116,5 +116,7 @@ Terminology:
 - Because TAG allows multiple structures in text, the role of the schema becomes much more important. The output would first be descriptive ("this is what you have tagged") and could be transformed into a prescriptive schema ("this is how the document structure should be"; "this is how your tags should interact").
 - The output would be a schematic overview of the multiple DAGs in your text, showing where tags overlap and where there's a relationship between them
 - The need for a (generated) schema in TAG is self-evident because the markup of TAG is so much more complex
+- Generating schema's is similar to the approach of SMcQ's (2008) that parses a TexMecs document assuming dominance relationships, and where it finds an instance that is not dominance it defines it as "containment". This approach is limited in the way that the editor cannot influences or overwrite this. Furthermore there is no validation; the Rabbit/Duck grammars can validate multiple data streams but only tree structures (not graphs)
+- XML has a schema generator, written bij James Clarke, that works well: it has data typing
 
 
