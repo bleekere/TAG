@@ -70,7 +70,7 @@ text -> poem+ -> (sp* -> speaker) stanza+ -> lg+ -> l+ -> w+ -> rhyme+ -> label 
 
 [text}
 [s}
-[cl}1st. Voice from the Mountains
+[cl}[phr}1st. Voice{phr] [phr}from the Mountains{phr]
 {cl]
 [cl}
     [phr [type}NP{]}[w [type}Adjunct{]}Thrice{w] three hundred thousand years{phr] 

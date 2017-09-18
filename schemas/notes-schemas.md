@@ -2,8 +2,10 @@
 
 ### Function of schema's:
 
-- explain the syntax and the grammar to the application; make sure that the syntax and grammar conform to the application's requirements
-- typing your text and your text edition
+1. explain the syntax and the grammar to the application; make sure that the syntax and grammar conform to the application's requirements
+2. typing your text and your text edition
+3. "auto insurance"; it's there in the background helping you when you've hurt yourself. This is David's main definition of a schema, but it also helps you with the two acts above. 
+4. Guiding the creation of new transcription documents
 
 
 ### What does a schema mean for TAG?
@@ -13,6 +15,8 @@
 	- querying
 	- string grammar ("which combination of characters is allowed?")
 	- graph grammar
+	- cross-referencing, e.g. XML id's or pointers to another file like a dictionary
+	- Error messages: the schema tells you what you did wrong and where the error is located (like in oXygen)
 
 2. Hierarchies
 	- in syntax (like XML)
@@ -32,6 +36,10 @@
 	- not based on stream (obvs), but on text
 	- schema is expressed as a graph (DAG or HG)
 	- Consider a HG containing information from which a GODDAG is derived which is in turn validated ("can you build this GODDAG using this grammar?", and from which XML can be derived.
+
+TexMecs and LMNL developed schema's but did not get very far; the reason for this is a bit unclear. 
+
+Further: "schema-aware query processing". 
 
 ### What could/should a schema have and do
 - not restrict, but "patternize"
@@ -93,5 +101,20 @@ Terminology:
 	- TexMex: ```<b|bold <i|italic|b>|i>```
 	- LMNL: tag order does not contain information
 
+#### Examples
+
+- **poetry**: meter + syllables and stress analysis - find all the places where there's stress, moving over the document and looking at it horizontally (over the line) and vertically (the columns). In XML processing this requires creating several intermediate documents; ideally in TAG one would add different layers of markup, one layer at the time, possibly with analysis in between.
+
+
+## Starlodge Notes
+
+- It is difficult to find tags that have the same meaning in different hierarchies (```w``` or ```p``` have specific meaning)
+- In the status quo there are two ways of dealing with variance in structure: the XML way means finding workarounds; the LMNL way means no validation. Both are not desirable: we don't want workarounds and we do want validation
+- Do we let the exceptions influence the schema? Where do you draw the line? Another solution is to let the computer generate a schema. It would be a base schema that you can edit later.
+- The schema would be able to deal with multiple (overlapping) hierarchies 
+- The advantage is that it looks at what you tagged, instead of what you *think* you tagged. 
+- Because TAG allows multiple structures in text, the role of the schema becomes much more important. The output would first be descriptive ("this is what you have tagged") and could be transformed into a prescriptive schema ("this is how the document structure should be"; "this is how your tags should interact").
+- The output would be a schematic overview of the multiple DAGs in your text, showing where tags overlap and where there's a relationship between them
+- The need for a (generated) schema in TAG is self-evident because the markup of TAG is so much more complex
 
 
