@@ -107,6 +107,7 @@ Terminology:
 
 
 ## Starlodge Notes
+### General
 
 - It is difficult to find tags that have the same meaning in different hierarchies (```w``` or ```p``` have specific meaning)
 - In the status quo there are two ways of dealing with variance in structure: the XML way means finding workarounds; the LMNL way means no validation. Both are not desirable: we don't want workarounds and we do want validation
@@ -117,6 +118,47 @@ Terminology:
 - The output would be a schematic overview of the multiple DAGs in your text, showing where tags overlap and where there's a relationship between them
 - The need for a (generated) schema in TAG is self-evident because the markup of TAG is so much more complex
 - Generating schema's is similar to the approach of SMcQ's (2008) that parses a TexMecs document assuming dominance relationships, and where it finds an instance that is not dominance it defines it as "containment". This approach is limited in the way that the editor cannot influences or overwrite this. Furthermore there is no validation; the Rabbit/Duck grammars can validate multiple data streams but only tree structures (not graphs)
-- XML has a schema generator, written bij James Clarke, that works well: it has data typing
+- XML has a schema generator, written bij James Clarke, that works well: it has data typing etc.
+- EARMARK expresses the markup, not the concepts behind it. 
+- We want to express not only the markup but especially the conceptual ideas (world view) behind it. For this we can turn to OWL and SKOS ontologies. 
+
+
+### Balisage paper
+
+- Why would you want to generate a schema; why is it a good idea for TAG?
+- How do you do this? 
+- We define rules about the text that are based on our understanding of the text. For instance, we can say that a document instance is of the type "poem" and that a poem document has line groups that exhaustively include lines and that those lines only text nodes can exist and that those text nodes need to be continuous. 
+- the markup expresses a view of the world (knowledge) and a schema needs to check whether the tagging is consistent with your specific view of the world. 
+
+### Conceptual model Prometheus Unbound - p21v
+
+#### Physical
+- the document's surface is a page that has a number of sections
+- the physical structure of a section varies, but each section consists at least of a sequence of page lines
+- a page line runs from left to right and consists of alphanumeric characters, spaces, and words (w)
+- in this physical view, a word is defined as a linear sequence of alphanumeric characters, UTF-8 symbols, and may have a facsimile element
+- a word has no spaces
+- a word may overlap with a page line but not with a section
+- a page line can consist of spaces only (if it's a "new line")
+- a page line cannot overlap with a section
+- a page line can contain another page line if the embedded page line has an add element
+- the add element has a type attribute and consists of a sequence of text nodes
+
+#### Poetic
+- the document instance is also a poem
+- a poem is defined as one or more line groups
+- the poem starts with a speech that is not part of the poetic structure
+- the speech node has alphanumeric characters (one or more text nodes) and may also have a speaker node (one or more text nodes that have alphanumeric characters)
+- a line group has a type attribute, in this cause stanza, and a number of poetic lines (```l```) 
+- poetic lines are related to page lines but not the same: sometimes a poetic line overlaps with a page line
+- a line group is related to section, as the definition of a section  and the definition a line group are based on physical appearance ("block of text"), but a line group has only poetic lines, whereas a section can also have a speech with a speaker
+- however a line group is not dominated by a section because a section is bound by the surface of the page and a line group can overlap page
+- a ```l``` (poetic line) has text nodes that have alphanumeric characters and spaces and word elements. It cannot contain another poetic line. It is related to a page line, but can cross page lines and pages.
+- a poetic line dominates word elements, so words can cross page lines but not poetic lines
+- a word element is used here to mark the words in a poetic line that rhyme. The rhyme itself is indicated with the rhyme element 
+- a rhyme element has a label attribute that contains text characters with the rhyme, and wraps around alphanumeric characters
+
+
+
 
 
